@@ -1,0 +1,7 @@
+flask==2.0.1
+flask_sqlalchemy==2.5.1
+numpy>=1.17,<1.23
+scipy>=1.6,<1.23
+numba>=0.51,<0.55
+pandas==1.4.2
+daal==2021.2.3

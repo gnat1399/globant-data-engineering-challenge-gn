@@ -1,0 +1,105 @@
+2025-03-12 11:08:20,891 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 11:08:20,891 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 11:08:20,895 - INFO -  * Restarting with stat
+2025-03-12 11:08:23,721 - WARNING -  * Debugger is active!
+2025-03-12 11:08:23,731 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 11:11:26,343 - INFO - 127.0.0.1 - - [12/Mar/2025 11:11:26] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-12 11:11:26,807 - INFO - 127.0.0.1 - - [12/Mar/2025 11:11:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-12 11:14:25,361 - INFO - 127.0.0.1 - - [12/Mar/2025 11:14:25] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-12 11:21:54,063 - INFO - 127.0.0.1 - - [12/Mar/2025 11:21:54] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-12 11:24:03,902 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 11:24:03,902 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 11:24:03,917 - INFO -  * Restarting with stat
+2025-03-12 11:24:05,784 - WARNING -  * Debugger is active!
+2025-03-12 11:24:05,793 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 11:39:27,929 - INFO - 127.0.0.1 - - [12/Mar/2025 11:39:27] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-12 11:43:08,666 - INFO - 127.0.0.1 - - [12/Mar/2025 11:43:08] "[33mGET / HTTP/1.1[0m" 404 -
+2025-03-12 11:46:26,065 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 11:46:26,065 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 11:46:26,073 - INFO -  * Restarting with stat
+2025-03-12 11:46:28,590 - WARNING -  * Debugger is active!
+2025-03-12 11:46:28,601 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 11:47:11,459 - INFO - 127.0.0.1 - - [12/Mar/2025 11:47:11] "GET / HTTP/1.1" 200 -
+2025-03-12 12:38:21,221 - INFO -  * Detected change in 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\app.py', reloading
+2025-03-12 12:38:21,455 - INFO -  * Restarting with stat
+2025-03-12 12:40:41,548 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 12:40:41,548 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 12:40:41,553 - INFO -  * Restarting with stat
+2025-03-12 12:40:44,255 - WARNING -  * Debugger is active!
+2025-03-12 12:40:44,269 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 12:46:31,182 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 12:46:31,182 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 12:46:31,190 - INFO -  * Restarting with stat
+2025-03-12 12:46:34,953 - WARNING -  * Debugger is active!
+2025-03-12 12:46:34,968 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 13:06:16,610 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 13:06:16,610 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 13:06:16,612 - INFO -  * Restarting with stat
+2025-03-12 13:06:19,565 - WARNING -  * Debugger is active!
+2025-03-12 13:06:19,580 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 14:04:20,135 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 14:04:20,135 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 14:04:20,138 - INFO -  * Restarting with stat
+2025-03-12 14:04:22,207 - WARNING -  * Debugger is active!
+2025-03-12 14:04:22,215 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 14:04:33,189 - INFO - 127.0.0.1 - - [12/Mar/2025 14:04:33] "[33mPOST /upload_csv%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:04:43,508 - INFO - 127.0.0.1 - - [12/Mar/2025 14:04:43] "[33mPOST /upload_csv%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:04:45,929 - INFO - 127.0.0.1 - - [12/Mar/2025 14:04:45] "[33mPOST /upload_csv%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:04:56,334 - INFO - 127.0.0.1 - - [12/Mar/2025 14:04:56] "[33mPOST /upload_csv%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:05:49,120 - INFO - 127.0.0.1 - - [12/Mar/2025 14:05:49] "GET / HTTP/1.1" 200 -
+2025-03-12 14:05:50,532 - INFO - 127.0.0.1 - - [12/Mar/2025 14:05:50] "GET / HTTP/1.1" 200 -
+2025-03-12 14:05:51,364 - INFO - 127.0.0.1 - - [12/Mar/2025 14:05:51] "GET / HTTP/1.1" 200 -
+2025-03-12 14:05:51,537 - INFO - 127.0.0.1 - - [12/Mar/2025 14:05:51] "GET / HTTP/1.1" 200 -
+2025-03-12 14:05:51,751 - INFO - 127.0.0.1 - - [12/Mar/2025 14:05:51] "GET / HTTP/1.1" 200 -
+2025-03-12 14:05:58,182 - INFO - 127.0.0.1 - - [12/Mar/2025 14:05:58] "GET / HTTP/1.1" 200 -
+2025-03-12 14:06:00,309 - INFO - 127.0.0.1 - - [12/Mar/2025 14:06:00] "GET / HTTP/1.1" 200 -
+2025-03-12 14:06:00,524 - INFO - 127.0.0.1 - - [12/Mar/2025 14:06:00] "GET / HTTP/1.1" 200 -
+2025-03-12 14:06:00,742 - INFO - 127.0.0.1 - - [12/Mar/2025 14:06:00] "GET / HTTP/1.1" 200 -
+2025-03-12 14:06:02,634 - INFO - 127.0.0.1 - - [12/Mar/2025 14:06:02] "GET / HTTP/1.1" 200 -
+2025-03-12 14:06:02,849 - INFO - 127.0.0.1 - - [12/Mar/2025 14:06:02] "GET / HTTP/1.1" 200 -
+2025-03-12 14:06:05,477 - INFO - 127.0.0.1 - - [12/Mar/2025 14:06:05] "GET / HTTP/1.1" 200 -
+2025-03-12 14:06:18,272 - INFO - 127.0.0.1 - - [12/Mar/2025 14:06:18] "GET / HTTP/1.1" 200 -
+2025-03-12 14:06:56,992 - INFO - 127.0.0.1 - - [12/Mar/2025 14:06:56] "[33mPOST /upload_csv%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:06:58,715 - INFO - 127.0.0.1 - - [12/Mar/2025 14:06:58] "[33mPOST /upload_csv%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:07:25,270 - INFO - 127.0.0.1 - - [12/Mar/2025 14:07:25] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:07:28,361 - INFO - 127.0.0.1 - - [12/Mar/2025 14:07:28] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:09:10,786 - INFO - 127.0.0.1 - - [12/Mar/2025 14:09:10] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:10:10,565 - INFO - 127.0.0.1 - - [12/Mar/2025 14:10:10] "[31m[1mGET /insert_batch HTTP/1.1[0m" 405 -
+2025-03-12 14:10:36,281 - INFO - 127.0.0.1 - - [12/Mar/2025 14:10:36] "[33mPOST /%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:10:38,068 - INFO - 127.0.0.1 - - [12/Mar/2025 14:10:38] "[33mPOST /%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:11:10,834 - INFO - 127.0.0.1 - - [12/Mar/2025 14:11:10] "GET / HTTP/1.1" 200 -
+2025-03-12 14:12:34,389 - INFO - 127.0.0.1 - - [12/Mar/2025 14:12:34] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:12:55,064 - INFO - 127.0.0.1 - - [12/Mar/2025 14:12:55] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:14:04,450 - INFO - 127.0.0.1 - - [12/Mar/2025 14:14:04] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:14:09,080 - INFO - 127.0.0.1 - - [12/Mar/2025 14:14:09] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:18:34,935 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 14:18:34,935 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 14:18:34,937 - INFO -  * Restarting with stat
+2025-03-12 14:18:36,355 - WARNING -  * Debugger is active!
+2025-03-12 14:18:36,362 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 14:18:43,920 - INFO - 127.0.0.1 - - [12/Mar/2025 14:18:43] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:18:45,272 - INFO - 127.0.0.1 - - [12/Mar/2025 14:18:45] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:18:54,183 - INFO - 127.0.0.1 - - [12/Mar/2025 14:18:54] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:18:55,466 - INFO - 127.0.0.1 - - [12/Mar/2025 14:18:55] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:18:56,753 - INFO - 127.0.0.1 - - [12/Mar/2025 14:18:56] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:19:15,536 - INFO - 127.0.0.1 - - [12/Mar/2025 14:19:15] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:24:22,053 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 14:24:22,053 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 14:24:22,056 - INFO -  * Restarting with stat
+2025-03-12 14:24:23,597 - WARNING -  * Debugger is active!
+2025-03-12 14:24:23,602 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 14:24:46,207 - INFO - 127.0.0.1 - - [12/Mar/2025 14:24:46] "GET / HTTP/1.1" 200 -
+2025-03-12 14:24:47,013 - INFO - 127.0.0.1 - - [12/Mar/2025 14:24:47] "GET / HTTP/1.1" 200 -
+2025-03-12 14:24:47,215 - INFO - 127.0.0.1 - - [12/Mar/2025 14:24:47] "GET / HTTP/1.1" 200 -
+2025-03-12 14:24:47,422 - INFO - 127.0.0.1 - - [12/Mar/2025 14:24:47] "GET / HTTP/1.1" 200 -
+2025-03-12 14:24:47,637 - INFO - 127.0.0.1 - - [12/Mar/2025 14:24:47] "GET / HTTP/1.1" 200 -
+2025-03-12 14:25:01,698 - INFO - 127.0.0.1 - - [12/Mar/2025 14:25:01] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
