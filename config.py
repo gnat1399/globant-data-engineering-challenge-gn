@@ -10,4 +10,6 @@ LOGGING_LEVEL = os.getenv('LOGGING_LEVEL', 'INFO')
 LOGGING_FILE = os.getenv('LOGGING_FILE', 'migration.log')
 
 # Carpeta de carga de archivos CSV
-UPLOAD_FOLDER = 'uploads/'
+
+BASE_DIR = os.path.abspath(os.path.dirname(__file__))  # Obtiene la ruta base del proyecto
+UPLOAD_FOLDER = os.path.join(BASE_DIR, 'uploads')  # Carpeta dentro del proyecto

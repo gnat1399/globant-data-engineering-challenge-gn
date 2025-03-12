@@ -3,6 +3,7 @@ from flask import Flask, request, jsonify
 from models import db, Department, HiredEmployee, Job
 from config import SQLALCHEMY_DATABASE_URI, LOGGING_LEVEL, LOGGING_FILE, UPLOAD_FOLDER
 from utils import setup_logging, load_csv, insert_batch
+from datetime import datetime
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = SQLALCHEMY_DATABASE_URI
@@ -11,80 +12,84 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 db.init_app(app)
 
-# Setup de logging
+# Configurar logging sin emojis para evitar errores en Windows
 log = setup_logging(LOGGING_LEVEL, LOGGING_FILE)
 
-# Ruta raíz para verificar que el servidor funciona
+with app.app_context():
+    db.create_all()
+
 @app.route('/')
 def home():
-    return "¡El servidor está funcionando correctamente!"
+    return "¡El servidor Flask está funcionando correctamente!"
 
-# Ruta para la carga de los archivos CSV
 @app.route('/upload_csv', methods=['POST'])
 def upload_csv():
-    # Obtener los tres archivos de la solicitud
-    file_departments = request.files.get('file_departments')
-    file_hired_employees = request.files.get('file_hired_employees')
-    file_jobs = request.files.get('file_jobs')
+    try:
+        log.info("📂 Recibiendo archivos CSV...")
 
-    # Verificar que se han recibido los 3 archivos
-    if not file_departments or not file_hired_employees or not file_jobs:
-        log.error('Faltan archivos en la solicitud')
-        return jsonify({"error": "Faltan archivos en la solicitud"}), 400
+        # Obtener archivos
+        file_departments = request.files.get('file_departments')
+        file_hired_employees = request.files.get('file_hired_employees')
+        file_jobs = request.files.get('file_jobs')
 
-    # Guardar los archivos CSV
-    file_path_departments = os.path.join(app.config['UPLOAD_FOLDER'], file_departments.filename)
-    file_path_hired_employees = os.path.join(app.config['UPLOAD_FOLDER'], file_hired_employees.filename)
-    file_path_jobs = os.path.join(app.config['UPLOAD_FOLDER'], file_jobs.filename)
+        if not file_departments or not file_hired_employees or not file_jobs:
+            log.error('[ERROR] Faltan archivos en la solicitud.')
+            return jsonify({"error": "Faltan archivos en la solicitud"}), 400
 
-    file_departments.save(file_path_departments)
-    file_hired_employees.save(file_path_hired_employees)
-    file_jobs.save(file_path_jobs)
+        # Guardar archivos CSV
+        file_paths = {
+            "departments": os.path.join(app.config['UPLOAD_FOLDER'], "departments.csv"),
+            "hired_employees": os.path.join(app.config['UPLOAD_FOLDER'], "hired_employees.csv"),
+            "jobs": os.path.join(app.config['UPLOAD_FOLDER'], "jobs.csv")
+        }
 
-    # Procesar los archivos CSV
-    df_departments = load_csv(file_path_departments, log)
-    df_hired_employees = load_csv(file_path_hired_employees, log)
-    df_jobs = load_csv(file_path_jobs, log)
+        file_departments.save(file_paths["departments"])
+        file_hired_employees.save(file_paths["hired_employees"])
+        file_jobs.save(file_paths["jobs"])
 
-    if df_departments is None or df_hired_employees is None or df_jobs is None:
-        return jsonify({"error": "Error al procesar uno o más archivos CSV"}), 500
+        log.info(f"[✔] Archivos guardados en: {file_paths}")
 
-    # Insertar los datos en la base de datos por lotes
-    # Insertar departamentos
-    data_departments = [{"id": row['id'], "department": row['department']} for _, row in df_departments.iterrows()]
+        # Procesar archivos CSV con nombres de columna definidos
+        df_departments = load_csv(file_paths["departments"], log, ["id", "department"])
+        df_hired_employees = load_csv(file_paths["hired_employees"], log, ["id", "name", "datetime", "department_id", "job_id"])
+        df_jobs = load_csv(file_paths["jobs"], log, ["id", "job"])
+
+        if df_departments is None or df_hired_employees is None or df_jobs is None:
+            return jsonify({"error": "Error al procesar uno o más archivos CSV"}), 500
+
+        insert_data(df_departments, df_hired_employees, df_jobs)
+
+        return jsonify({"message": "Datos insertados correctamente"}), 200
+
+    except Exception as e:
+        log.error(f"[ERROR] {str(e)}")
+        return jsonify({"error": str(e)}), 500
+
+def insert_data(df_departments, df_hired_employees, df_jobs):
+    """ Inserta los datos en la base de datos en lotes """
+    data_departments = [{"id": int(row['id']), "department": row['department']} for _, row in df_departments.iterrows()]
     insert_batch(Department, data_departments, db.session, log)
 
-    # Insertar empleados contratados
-    data_hired_employees = [{"id": row['id'], "name": row['name'], "hire_datetime": row['datetime'], "department_id": row['department_id'], "job_id": row['job_id']} for _, row in df_hired_employees.iterrows()]
-    insert_batch(HiredEmployee, data_hired_employees, db.session, log)
-
-    # Insertar trabajos
-    data_jobs = [{"id": row['id'], "job": row['job']} for _, row in df_jobs.iterrows()]
+    data_jobs = [{"id": int(row['id']), "job": row['job']} for _, row in df_jobs.iterrows()]
     insert_batch(Job, data_jobs, db.session, log)
 
-    return jsonify({"message": "Archivos procesados e insertados correctamente"}), 200
+    data_hired_employees = []
+    for _, row in df_hired_employees.iterrows():
+        try:
+            hire_date = datetime.strptime(row['datetime'], "%Y-%m-%dT%H:%M:%SZ")
+            data_hired_employees.append({
+                "id": int(row['id']),
+                "name": row['name'],
+                "hire_datetime": hire_date,
+                "department_id": int(row['department_id']),
+                "job_id": int(row['job_id'])
+            })
+        except ValueError as e:
+            log.error(f"[ERROR] Formato de fecha incorrecto en {row['datetime']}: {str(e)}")
+            raise ValueError(f"Formato de fecha incorrecto: {row['datetime']}")
 
-# Ruta para inserción por lotes
-@app.route('/insert_batch', methods=['POST'])
-def insert_batch_data():
-    data = request.json
-    if not data:
-        log.error('No data provided for batch insert')
-        return jsonify({"error": "No data provided"}), 400
-
-    for item in data:
-        if item['tabla'] == 'departments':
-            insert_batch(Department, item['data'], db.session, log)
-        elif item['tabla'] == 'hired_employees':
-            insert_batch(HiredEmployee, item['data'], db.session, log)
-        elif item['tabla'] == 'jobs':
-            insert_batch(Job, item['data'], db.session, log)
-        else:
-            log.error(f"Unknown table: {item['tabla']}")
-            return jsonify({"error": f"Unknown table: {item['tabla']}"}), 400
-
-    return jsonify({"message": "Batch inserted successfully"}), 200
+    insert_batch(HiredEmployee, data_hired_employees, db.session, log)
 
 if __name__ == '__main__':
-    print("Iniciando servidor Flask...")
-    app.run(debug=True, port=5000)  # Inicia el servidor en el puerto 5000
+    print("Iniciando servidor Flask en http://127.0.0.1:5000/")
+    app.run(debug=True, port=5000)

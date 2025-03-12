@@ -103,3 +103,1183 @@
 2025-03-12 14:24:47,422 - INFO - 127.0.0.1 - - [12/Mar/2025 14:24:47] "GET / HTTP/1.1" 200 -
 2025-03-12 14:24:47,637 - INFO - 127.0.0.1 - - [12/Mar/2025 14:24:47] "GET / HTTP/1.1" 200 -
 2025-03-12 14:25:01,698 - INFO - 127.0.0.1 - - [12/Mar/2025 14:25:01] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:58:58,965 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 14:58:58,965 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 14:58:58,967 - INFO -  * Restarting with stat
+2025-03-12 14:59:00,399 - WARNING -  * Debugger is active!
+2025-03-12 14:59:00,404 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 14:59:08,199 - INFO - 127.0.0.1 - - [12/Mar/2025 14:59:08] "[33mPOST /insert_batch%0A HTTP/1.1[0m" 404 -
+2025-03-12 14:59:18,455 - INFO - 127.0.0.1 - - [12/Mar/2025 14:59:18] "GET / HTTP/1.1" 200 -
+2025-03-12 14:59:19,149 - INFO - 127.0.0.1 - - [12/Mar/2025 14:59:19] "GET / HTTP/1.1" 200 -
+2025-03-12 14:59:19,338 - INFO - 127.0.0.1 - - [12/Mar/2025 14:59:19] "GET / HTTP/1.1" 200 -
+2025-03-12 14:59:19,554 - INFO - 127.0.0.1 - - [12/Mar/2025 14:59:19] "GET / HTTP/1.1" 200 -
+2025-03-12 14:59:20,993 - INFO - 127.0.0.1 - - [12/Mar/2025 14:59:20] "GET / HTTP/1.1" 200 -
+2025-03-12 14:59:21,172 - INFO - 127.0.0.1 - - [12/Mar/2025 14:59:21] "GET / HTTP/1.1" 200 -
+2025-03-12 14:59:21,388 - INFO - 127.0.0.1 - - [12/Mar/2025 14:59:21] "GET / HTTP/1.1" 200 -
+2025-03-12 14:59:21,593 - INFO - 127.0.0.1 - - [12/Mar/2025 14:59:21] "GET / HTTP/1.1" 200 -
+2025-03-12 14:59:21,795 - INFO - 127.0.0.1 - - [12/Mar/2025 14:59:21] "GET / HTTP/1.1" 200 -
+2025-03-12 15:05:39,596 - INFO - 127.0.0.1 - - [12/Mar/2025 15:05:39] "GET / HTTP/1.1" 200 -
+2025-03-12 15:05:40,691 - INFO - 127.0.0.1 - - [12/Mar/2025 15:05:40] "GET / HTTP/1.1" 200 -
+2025-03-12 15:05:40,871 - INFO - 127.0.0.1 - - [12/Mar/2025 15:05:40] "GET / HTTP/1.1" 200 -
+2025-03-12 15:05:41,045 - INFO - 127.0.0.1 - - [12/Mar/2025 15:05:41] "GET / HTTP/1.1" 200 -
+2025-03-12 15:05:41,252 - INFO - 127.0.0.1 - - [12/Mar/2025 15:05:41] "GET / HTTP/1.1" 200 -
+2025-03-12 15:05:41,446 - INFO - 127.0.0.1 - - [12/Mar/2025 15:05:41] "GET / HTTP/1.1" 200 -
+2025-03-12 15:07:29,010 - INFO - 127.0.0.1 - - [12/Mar/2025 15:07:29] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:07:32,338 - INFO - 127.0.0.1 - - [12/Mar/2025 15:07:32] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:07:35,512 - INFO - 127.0.0.1 - - [12/Mar/2025 15:07:35] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:07:36,360 - INFO - 127.0.0.1 - - [12/Mar/2025 15:07:36] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:07:37,336 - INFO - 127.0.0.1 - - [12/Mar/2025 15:07:37] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:07:41,677 - INFO - 127.0.0.1 - - [12/Mar/2025 15:07:41] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:07:49,876 - INFO - 127.0.0.1 - - [12/Mar/2025 15:07:49] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:08:06,390 - INFO - 127.0.0.1 - - [12/Mar/2025 15:08:06] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:09:32,977 - INFO - 127.0.0.1 - - [12/Mar/2025 15:09:32] "[31m[1mGET /insert_batch HTTP/1.1[0m" 405 -
+2025-03-12 15:21:19,329 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 15:21:19,329 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 15:21:19,331 - INFO -  * Restarting with stat
+2025-03-12 15:21:21,007 - WARNING -  * Debugger is active!
+2025-03-12 15:21:21,012 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 15:21:28,980 - INFO - 127.0.0.1 - - [12/Mar/2025 15:21:28] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:21:36,241 - INFO - 127.0.0.1 - - [12/Mar/2025 15:21:36] "[31m[1mGET /insert_batch HTTP/1.1[0m" 405 -
+2025-03-12 15:21:37,484 - INFO - 127.0.0.1 - - [12/Mar/2025 15:21:37] "[31m[1mGET /insert_batch HTTP/1.1[0m" 405 -
+2025-03-12 15:21:38,595 - INFO - 127.0.0.1 - - [12/Mar/2025 15:21:38] "[31m[1mGET /insert_batch HTTP/1.1[0m" 405 -
+2025-03-12 15:23:02,102 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 15:23:02,102 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 15:23:02,104 - INFO -  * Restarting with stat
+2025-03-12 15:23:03,885 - WARNING -  * Debugger is active!
+2025-03-12 15:23:03,892 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 15:23:10,280 - INFO - 127.0.0.1 - - [12/Mar/2025 15:23:10] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:23:11,496 - INFO - 127.0.0.1 - - [12/Mar/2025 15:23:11] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:23:15,416 - INFO - 127.0.0.1 - - [12/Mar/2025 15:23:15] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:28:43,897 - ERROR - Faltan archivos en la solicitud
+2025-03-12 15:28:43,897 - INFO - 127.0.0.1 - - [12/Mar/2025 15:28:43] "[31m[1mPOST /upload_csv HTTP/1.1[0m" 400 -
+2025-03-12 15:29:20,881 - INFO - 127.0.0.1 - - [12/Mar/2025 15:29:20] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:29:22,554 - INFO - 127.0.0.1 - - [12/Mar/2025 15:29:22] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:30:59,543 - INFO - 127.0.0.1 - - [12/Mar/2025 15:30:59] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:32:07,422 - ERROR - Faltan archivos en la solicitud
+2025-03-12 15:32:07,422 - INFO - 127.0.0.1 - - [12/Mar/2025 15:32:07] "[31m[1mPOST /upload_csv HTTP/1.1[0m" 400 -
+2025-03-12 15:33:20,620 - ERROR - Error en /upload_csv: [Errno 2] No such file or directory: 'uploads/departments.csv'
+2025-03-12 15:33:20,621 - INFO - 127.0.0.1 - - [12/Mar/2025 15:33:20] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 15:35:08,555 - ERROR - Faltan archivos en la solicitud
+2025-03-12 15:35:08,556 - INFO - 127.0.0.1 - - [12/Mar/2025 15:35:08] "[31m[1mPOST /upload_csv HTTP/1.1[0m" 400 -
+2025-03-12 15:36:02,587 - ERROR - Error en /upload_csv: [Errno 2] No such file or directory: 'uploads/departments.csv'
+2025-03-12 15:36:02,588 - INFO - 127.0.0.1 - - [12/Mar/2025 15:36:02] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 15:37:21,760 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 15:37:21,760 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 15:37:21,762 - INFO -  * Restarting with stat
+2025-03-12 15:37:23,486 - WARNING -  * Debugger is active!
+2025-03-12 15:37:23,494 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 15:37:31,860 - ERROR - Error en /upload_csv: [Errno 2] No such file or directory: 'uploads/departments.csv'
+2025-03-12 15:37:31,861 - INFO - 127.0.0.1 - - [12/Mar/2025 15:37:31] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 15:41:17,073 - INFO - 127.0.0.1 - - [12/Mar/2025 15:41:17] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:42:13,856 - INFO -  * Detected change in 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\config.py', reloading
+2025-03-12 15:42:14,003 - INFO -  * Restarting with stat
+2025-03-12 15:42:15,405 - WARNING -  * Debugger is active!
+2025-03-12 15:42:15,411 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 15:43:12,003 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 15:43:12,003 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 15:43:12,006 - INFO -  * Restarting with stat
+2025-03-12 15:43:13,995 - WARNING -  * Debugger is active!
+2025-03-12 15:43:14,004 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 15:43:19,971 - INFO - 127.0.0.1 - - [12/Mar/2025 15:43:19] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:43:21,415 - INFO - 127.0.0.1 - - [12/Mar/2025 15:43:21] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:43:29,201 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 15:43:29,209 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 15:43:29,212 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 15:43:29,213 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 15:43:29,214 - INFO - 127.0.0.1 - - [12/Mar/2025 15:43:29] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 15:44:54,295 - INFO - 127.0.0.1 - - [12/Mar/2025 15:44:54] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:44:55,648 - INFO - 127.0.0.1 - - [12/Mar/2025 15:44:55] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:46:45,222 - INFO - 127.0.0.1 - - [12/Mar/2025 15:46:45] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:46:46,862 - INFO - 127.0.0.1 - - [12/Mar/2025 15:46:46] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:47:41,691 - INFO - 127.0.0.1 - - [12/Mar/2025 15:47:41] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:48:25,227 - INFO - 127.0.0.1 - - [12/Mar/2025 15:48:25] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:48:27,181 - INFO - 127.0.0.1 - - [12/Mar/2025 15:48:27] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:50:16,148 - INFO -  * Detected change in 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\config.py', reloading
+2025-03-12 15:50:16,289 - INFO -  * Restarting with stat
+2025-03-12 15:50:19,332 - WARNING -  * Debugger is active!
+2025-03-12 15:50:19,339 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 15:50:24,400 - INFO - 127.0.0.1 - - [12/Mar/2025 15:50:24] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:50:26,113 - INFO - 127.0.0.1 - - [12/Mar/2025 15:50:26] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 15:53:55,472 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 15:53:55,472 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 15:53:55,474 - INFO -  * Restarting with stat
+2025-03-12 15:53:57,301 - WARNING -  * Debugger is active!
+2025-03-12 15:53:57,313 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 15:54:00,947 - INFO - 127.0.0.1 - - [12/Mar/2025 15:54:00] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 16:30:07,699 - INFO - 127.0.0.1 - - [12/Mar/2025 16:30:07] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 16:30:08,698 - INFO - 127.0.0.1 - - [12/Mar/2025 16:30:08] "[33mPOST /insert_batch/ HTTP/1.1[0m" 404 -
+2025-03-12 16:31:29,587 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:31:29,597 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:31:29,600 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:31:29,601 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:31:29,602 - INFO - 127.0.0.1 - - [12/Mar/2025 16:31:29] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:36:42,344 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 16:36:42,344 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 16:36:42,346 - INFO -  * Restarting with stat
+2025-03-12 16:36:43,882 - WARNING -  * Debugger is active!
+2025-03-12 16:36:43,889 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 16:36:48,397 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:36:48,409 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:36:48,413 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:36:48,414 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:36:48,415 - INFO - 127.0.0.1 - - [12/Mar/2025 16:36:48] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:36:50,130 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:36:50,136 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:36:50,138 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:36:50,138 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:36:50,139 - INFO - 127.0.0.1 - - [12/Mar/2025 16:36:50] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:36:51,630 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:36:51,638 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:36:51,642 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:36:51,643 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:36:51,644 - INFO - 127.0.0.1 - - [12/Mar/2025 16:36:51] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:36:52,860 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:36:52,866 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:36:52,868 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:36:52,869 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:36:52,869 - INFO - 127.0.0.1 - - [12/Mar/2025 16:36:52] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:41:44,777 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 16:41:44,777 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 16:41:44,779 - INFO -  * Restarting with stat
+2025-03-12 16:41:46,540 - WARNING -  * Debugger is active!
+2025-03-12 16:41:46,548 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 16:41:49,958 - INFO - Recibiendo archivos...
+2025-03-12 16:41:49,972 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:41:49,976 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:41:49,982 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:41:49,984 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:41:49,984 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:41:49,985 - INFO - 127.0.0.1 - - [12/Mar/2025 16:41:49] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:42:01,798 - INFO - Recibiendo archivos...
+2025-03-12 16:42:01,803 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:42:01,805 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:42:01,812 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:42:01,814 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:42:01,815 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:42:01,815 - INFO - 127.0.0.1 - - [12/Mar/2025 16:42:01] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:42:03,743 - INFO - Recibiendo archivos...
+2025-03-12 16:42:03,749 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:42:03,753 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:42:03,758 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:42:03,761 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:42:03,761 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:42:03,762 - INFO - 127.0.0.1 - - [12/Mar/2025 16:42:03] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:42:06,807 - INFO - Recibiendo archivos...
+2025-03-12 16:42:06,814 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:42:06,818 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:42:06,827 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:42:06,831 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:42:06,831 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:42:06,832 - INFO - 127.0.0.1 - - [12/Mar/2025 16:42:06] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:42:07,759 - INFO - Recibiendo archivos...
+2025-03-12 16:42:07,763 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:42:07,766 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:42:07,771 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:42:07,774 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:42:07,774 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:42:07,774 - INFO - 127.0.0.1 - - [12/Mar/2025 16:42:07] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:42:21,701 - INFO - Recibiendo archivos...
+2025-03-12 16:42:21,705 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:42:21,707 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:42:21,712 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:42:21,714 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:42:21,715 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:42:21,715 - INFO - 127.0.0.1 - - [12/Mar/2025 16:42:21] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:43:04,291 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 16:43:04,291 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 16:43:04,294 - INFO -  * Restarting with stat
+2025-03-12 16:43:06,164 - WARNING -  * Debugger is active!
+2025-03-12 16:43:06,173 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 16:43:48,673 - INFO - Recibiendo archivos...
+2025-03-12 16:43:48,677 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:43:48,683 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:43:48,689 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:43:48,692 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:43:48,692 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:43:48,693 - INFO - 127.0.0.1 - - [12/Mar/2025 16:43:48] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:43:49,970 - INFO - Recibiendo archivos...
+2025-03-12 16:43:49,976 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:43:49,978 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:43:49,983 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:43:49,985 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:43:49,985 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:43:49,986 - INFO - 127.0.0.1 - - [12/Mar/2025 16:43:49] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:43:51,152 - INFO - Recibiendo archivos...
+2025-03-12 16:43:51,159 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:43:51,162 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:43:51,169 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:43:51,173 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:43:51,174 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:43:51,175 - INFO - 127.0.0.1 - - [12/Mar/2025 16:43:51] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:46:09,548 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 16:46:09,548 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 16:46:09,550 - INFO -  * Restarting with stat
+2025-03-12 16:46:10,979 - WARNING -  * Debugger is active!
+2025-03-12 16:46:10,986 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 16:46:13,928 - INFO - Recibiendo archivos...
+2025-03-12 16:46:13,935 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:46:13,939 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:46:13,944 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:46:13,947 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:46:13,947 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:46:13,948 - INFO - 127.0.0.1 - - [12/Mar/2025 16:46:13] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:46:24,126 - INFO - Recibiendo archivos...
+2025-03-12 16:46:24,129 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:46:24,132 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:46:24,137 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:46:24,139 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:46:24,139 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:46:24,140 - INFO - 127.0.0.1 - - [12/Mar/2025 16:46:24] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:47:15,942 - INFO - Recibiendo archivos...
+2025-03-12 16:47:15,948 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:47:15,952 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:47:15,961 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:47:15,964 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:47:15,964 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:47:15,965 - INFO - 127.0.0.1 - - [12/Mar/2025 16:47:15] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:47:17,400 - INFO - Recibiendo archivos...
+2025-03-12 16:47:17,408 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:47:17,411 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:47:17,421 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:47:17,425 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:47:17,426 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:47:17,426 - INFO - 127.0.0.1 - - [12/Mar/2025 16:47:17] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:47:57,644 - INFO -  * Detected change in 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\app.py', reloading
+2025-03-12 16:47:57,835 - INFO -  * Restarting with stat
+2025-03-12 16:48:00,530 - WARNING -  * Debugger is active!
+2025-03-12 16:48:00,536 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 16:48:10,481 - INFO - Recibiendo archivos...
+2025-03-12 16:48:10,679 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:48:10,686 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:48:10,690 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:48:10,759 - INFO - 12 registros insertados en la tabla departments
+2025-03-12 16:48:10,779 - INFO - 183 registros insertados en la tabla jobs
+2025-03-12 16:48:10,868 - INFO - 127.0.0.1 - - [12/Mar/2025 16:48:10] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:50:52,445 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 16:50:52,445 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 16:50:52,447 - INFO -  * Restarting with stat
+2025-03-12 16:50:53,853 - WARNING -  * Debugger is active!
+2025-03-12 16:50:53,859 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 16:51:02,463 - INFO - Recibiendo archivos...
+2025-03-12 16:51:02,468 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:51:02,471 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv
+2025-03-12 16:51:02,477 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv
+2025-03-12 16:51:02,483 - INFO - Archivo CSV cargado correctamente desde: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv
+2025-03-12 16:51:02,484 - ERROR - Error en /upload_csv: 'id'
+2025-03-12 16:51:02,486 - INFO - 127.0.0.1 - - [12/Mar/2025 16:51:02] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:53:01,425 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 16:53:01,426 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-12 16:53:01,428 - INFO -  * Restarting with stat
+2025-03-12 16:53:03,109 - WARNING -  * Debugger is active!
+2025-03-12 16:53:03,114 - INFO -  * Debugger PIN: 136-310-236
+2025-03-12 16:53:06,542 - INFO - Recibiendo archivos...
+2025-03-12 16:53:06,546 - INFO - Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:53:06,565 - INFO - 127.0.0.1 - - [12/Mar/2025 16:53:06] "[35m[1mPOST /upload_csv HTTP/1.1[0m" 500 -
+2025-03-12 16:56:43,268 - INFO - 📂 Recibiendo archivos CSV...
+2025-03-12 16:56:43,275 - INFO - [✔] Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 16:56:43,285 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv (12 filas)
+2025-03-12 16:56:43,296 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv (1999 filas)
+2025-03-12 16:56:43,306 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv (183 filas)
+2025-03-12 16:56:43,335 - ERROR - [ERROR] Fallo al insertar en departments: (sqlite3.IntegrityError) UNIQUE constraint failed: departments.id
+[SQL: INSERT INTO departments (id, department) VALUES (?, ?)]
+[parameters: [(1, 'Product Management'), (2, 'Sales'), (3, 'Research and Development'), (4, 'Business Development'), (5, 'Engineering'), (6, 'Human Resources'), (7, 'Services'), (8, 'Support')  ... displaying 10 of 12 total bound parameter sets ...  (11, 'Legal'), (12, 'Accounting')]]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-03-12 16:56:43,337 - ERROR - [ERROR] (sqlite3.IntegrityError) UNIQUE constraint failed: departments.id
+[SQL: INSERT INTO departments (id, department) VALUES (?, ?)]
+[parameters: [(1, 'Product Management'), (2, 'Sales'), (3, 'Research and Development'), (4, 'Business Development'), (5, 'Engineering'), (6, 'Human Resources'), (7, 'Services'), (8, 'Support')  ... displaying 10 of 12 total bound parameter sets ...  (11, 'Legal'), (12, 'Accounting')]]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-03-12 17:07:33,862 - INFO - 📂 Recibiendo archivos CSV...
+2025-03-12 17:07:33,868 - INFO - [✔] Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 17:07:33,876 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv (12 filas)
+2025-03-12 17:07:33,887 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv (1999 filas)
+2025-03-12 17:07:33,892 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv (183 filas)
+2025-03-12 17:07:33,913 - WARNING - [⚠] Conflicto de ID detectado en departments. Intentando actualización...
+2025-03-12 17:07:33,997 - INFO - [✔] Registros duplicados en departments han sido actualizados.
+2025-03-12 17:07:34,017 - WARNING - [⚠] Conflicto de ID detectado en jobs. Intentando actualización...
+2025-03-12 17:07:35,141 - INFO - [✔] Registros duplicados en jobs han sido actualizados.
+2025-03-12 17:07:35,148 - ERROR - [ERROR] Formato de fecha incorrecto en 2021-05-30T05:43:46Z: cannot convert float NaN to integer
+2025-03-12 17:07:35,149 - ERROR - [ERROR] Formato de fecha incorrecto: 2021-05-30T05:43:46Z
+2025-03-12 17:19:36,216 - INFO - 📂 Recibiendo archivos CSV...
+2025-03-12 17:19:36,223 - INFO - [✔] Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 17:19:36,229 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv (12 filas)
+2025-03-12 17:19:36,239 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv (1999 filas)
+2025-03-12 17:19:36,243 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv (183 filas)
+2025-03-12 17:19:36,262 - WARNING - [⚠] Conflicto de ID detectado en departments. Intentando actualización...
+2025-03-12 17:19:36,284 - INFO - [✔] Registros duplicados en departments han sido actualizados.
+2025-03-12 17:19:36,299 - WARNING - [⚠] Conflicto de ID detectado en jobs. Intentando actualización...
+2025-03-12 17:19:36,527 - INFO - [✔] Registros duplicados en jobs han sido actualizados.
+2025-03-12 17:19:36,532 - ERROR - [ERROR] Formato de fecha incorrecto en 2021-05-30T05:43:46Z: cannot convert float NaN to integer
+2025-03-12 17:19:36,533 - ERROR - [ERROR] Formato de fecha incorrecto: 2021-05-30T05:43:46Z
+2025-03-12 17:19:39,975 - INFO - 📂 Recibiendo archivos CSV...
+2025-03-12 17:19:39,982 - INFO - [✔] Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 17:19:39,987 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv (12 filas)
+2025-03-12 17:19:39,996 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv (1999 filas)
+2025-03-12 17:19:40,001 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv (183 filas)
+2025-03-12 17:19:40,005 - WARNING - [⚠] Conflicto de ID detectado en departments. Intentando actualización...
+2025-03-12 17:19:40,021 - INFO - [✔] Registros duplicados en departments han sido actualizados.
+2025-03-12 17:19:40,038 - WARNING - [⚠] Conflicto de ID detectado en jobs. Intentando actualización...
+2025-03-12 17:19:40,247 - INFO - [✔] Registros duplicados en jobs han sido actualizados.
+2025-03-12 17:19:40,249 - ERROR - [ERROR] Formato de fecha incorrecto en 2021-05-30T05:43:46Z: cannot convert float NaN to integer
+2025-03-12 17:19:40,250 - ERROR - [ERROR] Formato de fecha incorrecto: 2021-05-30T05:43:46Z
+2025-03-12 17:21:29,484 - INFO - 📂 Recibiendo archivos CSV...
+2025-03-12 17:21:29,491 - INFO - [✔] Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 17:21:29,497 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv (12 filas)
+2025-03-12 17:21:29,509 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv (1999 filas)
+2025-03-12 17:21:29,515 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv (183 filas)
+2025-03-12 17:21:29,534 - WARNING - [⚠] Conflicto de ID detectado en departments. Intentando actualización...
+2025-03-12 17:21:29,559 - INFO - [✔] Registros duplicados en departments han sido actualizados.
+2025-03-12 17:21:29,583 - WARNING - [⚠] Conflicto de ID detectado en jobs. Intentando actualización...
+2025-03-12 17:21:29,894 - INFO - [✔] Registros duplicados en jobs han sido actualizados.
+2025-03-12 17:21:29,898 - ERROR - [ERROR] Formato de fecha incorrecto en 2021-05-30T05:43:46Z: cannot convert float NaN to integer
+2025-03-12 17:21:29,899 - ERROR - [ERROR] Formato de fecha incorrecto: 2021-05-30T05:43:46Z
+2025-03-12 17:23:54,464 - INFO - 📂 Recibiendo archivos CSV...
+2025-03-12 17:23:54,470 - INFO - [✔] Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 17:23:54,477 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv (12 filas)
+2025-03-12 17:23:54,487 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv (1999 filas)
+2025-03-12 17:23:54,491 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv (183 filas)
+2025-03-12 17:23:54,512 - WARNING - [⚠] Conflicto de ID detectado en departments. Intentando actualización...
+2025-03-12 17:23:54,518 - INFO - [✔] Registro con ID 1 actualizado en departments.
+2025-03-12 17:23:54,521 - INFO - [✔] Registro con ID 2 actualizado en departments.
+2025-03-12 17:23:54,524 - INFO - [✔] Registro con ID 3 actualizado en departments.
+2025-03-12 17:23:54,526 - INFO - [✔] Registro con ID 4 actualizado en departments.
+2025-03-12 17:23:54,528 - INFO - [✔] Registro con ID 5 actualizado en departments.
+2025-03-12 17:23:54,530 - INFO - [✔] Registro con ID 6 actualizado en departments.
+2025-03-12 17:23:54,532 - INFO - [✔] Registro con ID 7 actualizado en departments.
+2025-03-12 17:23:54,535 - INFO - [✔] Registro con ID 8 actualizado en departments.
+2025-03-12 17:23:54,539 - INFO - [✔] Registro con ID 9 actualizado en departments.
+2025-03-12 17:23:54,542 - INFO - [✔] Registro con ID 10 actualizado en departments.
+2025-03-12 17:23:54,545 - INFO - [✔] Registro con ID 11 actualizado en departments.
+2025-03-12 17:23:54,547 - INFO - [✔] Registro con ID 12 actualizado en departments.
+2025-03-12 17:23:54,549 - INFO - [✔] Registros duplicados en departments han sido actualizados o insertados correctamente.
+2025-03-12 17:23:54,569 - WARNING - [⚠] Conflicto de ID detectado en jobs. Intentando actualización...
+2025-03-12 17:23:54,574 - INFO - [✔] Registro con ID 1 actualizado en jobs.
+2025-03-12 17:23:54,577 - INFO - [✔] Registro con ID 2 actualizado en jobs.
+2025-03-12 17:23:54,580 - INFO - [✔] Registro con ID 3 actualizado en jobs.
+2025-03-12 17:23:54,583 - INFO - [✔] Registro con ID 4 actualizado en jobs.
+2025-03-12 17:23:54,585 - INFO - [✔] Registro con ID 5 actualizado en jobs.
+2025-03-12 17:23:54,589 - INFO - [✔] Registro con ID 6 actualizado en jobs.
+2025-03-12 17:23:54,592 - INFO - [✔] Registro con ID 7 actualizado en jobs.
+2025-03-12 17:23:54,595 - INFO - [✔] Registro con ID 8 actualizado en jobs.
+2025-03-12 17:23:54,598 - INFO - [✔] Registro con ID 9 actualizado en jobs.
+2025-03-12 17:23:54,600 - INFO - [✔] Registro con ID 10 actualizado en jobs.
+2025-03-12 17:23:54,603 - INFO - [✔] Registro con ID 11 actualizado en jobs.
+2025-03-12 17:23:54,605 - INFO - [✔] Registro con ID 12 actualizado en jobs.
+2025-03-12 17:23:54,607 - INFO - [✔] Registro con ID 13 actualizado en jobs.
+2025-03-12 17:23:54,610 - INFO - [✔] Registro con ID 14 actualizado en jobs.
+2025-03-12 17:23:54,612 - INFO - [✔] Registro con ID 15 actualizado en jobs.
+2025-03-12 17:23:54,614 - INFO - [✔] Registro con ID 16 actualizado en jobs.
+2025-03-12 17:23:54,617 - INFO - [✔] Registro con ID 17 actualizado en jobs.
+2025-03-12 17:23:54,620 - INFO - [✔] Registro con ID 18 actualizado en jobs.
+2025-03-12 17:23:54,623 - INFO - [✔] Registro con ID 19 actualizado en jobs.
+2025-03-12 17:23:54,625 - INFO - [✔] Registro con ID 20 actualizado en jobs.
+2025-03-12 17:23:54,628 - INFO - [✔] Registro con ID 21 actualizado en jobs.
+2025-03-12 17:23:54,630 - INFO - [✔] Registro con ID 22 actualizado en jobs.
+2025-03-12 17:23:54,632 - INFO - [✔] Registro con ID 23 actualizado en jobs.
+2025-03-12 17:23:54,635 - INFO - [✔] Registro con ID 24 actualizado en jobs.
+2025-03-12 17:23:54,641 - INFO - [✔] Registro con ID 25 actualizado en jobs.
+2025-03-12 17:23:54,644 - INFO - [✔] Registro con ID 26 actualizado en jobs.
+2025-03-12 17:23:54,647 - INFO - [✔] Registro con ID 27 actualizado en jobs.
+2025-03-12 17:23:54,651 - INFO - [✔] Registro con ID 28 actualizado en jobs.
+2025-03-12 17:23:54,655 - INFO - [✔] Registro con ID 29 actualizado en jobs.
+2025-03-12 17:23:54,658 - INFO - [✔] Registro con ID 30 actualizado en jobs.
+2025-03-12 17:23:54,663 - INFO - [✔] Registro con ID 31 actualizado en jobs.
+2025-03-12 17:23:54,665 - INFO - [✔] Registro con ID 32 actualizado en jobs.
+2025-03-12 17:23:54,668 - INFO - [✔] Registro con ID 33 actualizado en jobs.
+2025-03-12 17:23:54,670 - INFO - [✔] Registro con ID 34 actualizado en jobs.
+2025-03-12 17:23:54,672 - INFO - [✔] Registro con ID 35 actualizado en jobs.
+2025-03-12 17:23:54,674 - INFO - [✔] Registro con ID 36 actualizado en jobs.
+2025-03-12 17:23:54,676 - INFO - [✔] Registro con ID 37 actualizado en jobs.
+2025-03-12 17:23:54,679 - INFO - [✔] Registro con ID 38 actualizado en jobs.
+2025-03-12 17:23:54,681 - INFO - [✔] Registro con ID 39 actualizado en jobs.
+2025-03-12 17:23:54,683 - INFO - [✔] Registro con ID 40 actualizado en jobs.
+2025-03-12 17:23:54,685 - INFO - [✔] Registro con ID 41 actualizado en jobs.
+2025-03-12 17:23:54,688 - INFO - [✔] Registro con ID 42 actualizado en jobs.
+2025-03-12 17:23:54,690 - INFO - [✔] Registro con ID 43 actualizado en jobs.
+2025-03-12 17:23:54,692 - INFO - [✔] Registro con ID 44 actualizado en jobs.
+2025-03-12 17:23:54,695 - INFO - [✔] Registro con ID 45 actualizado en jobs.
+2025-03-12 17:23:54,699 - INFO - [✔] Registro con ID 46 actualizado en jobs.
+2025-03-12 17:23:54,705 - INFO - [✔] Registro con ID 47 actualizado en jobs.
+2025-03-12 17:23:54,708 - INFO - [✔] Registro con ID 48 actualizado en jobs.
+2025-03-12 17:23:54,710 - INFO - [✔] Registro con ID 49 actualizado en jobs.
+2025-03-12 17:23:54,713 - INFO - [✔] Registro con ID 50 actualizado en jobs.
+2025-03-12 17:23:54,715 - INFO - [✔] Registro con ID 51 actualizado en jobs.
+2025-03-12 17:23:54,723 - INFO - [✔] Registro con ID 52 actualizado en jobs.
+2025-03-12 17:23:54,725 - INFO - [✔] Registro con ID 53 actualizado en jobs.
+2025-03-12 17:23:54,728 - INFO - [✔] Registro con ID 54 actualizado en jobs.
+2025-03-12 17:23:54,731 - INFO - [✔] Registro con ID 55 actualizado en jobs.
+2025-03-12 17:23:54,733 - INFO - [✔] Registro con ID 56 actualizado en jobs.
+2025-03-12 17:23:54,738 - INFO - [✔] Registro con ID 57 actualizado en jobs.
+2025-03-12 17:23:54,740 - INFO - [✔] Registro con ID 58 actualizado en jobs.
+2025-03-12 17:23:54,743 - INFO - [✔] Registro con ID 59 actualizado en jobs.
+2025-03-12 17:23:54,745 - INFO - [✔] Registro con ID 60 actualizado en jobs.
+2025-03-12 17:23:54,748 - INFO - [✔] Registro con ID 61 actualizado en jobs.
+2025-03-12 17:23:54,750 - INFO - [✔] Registro con ID 62 actualizado en jobs.
+2025-03-12 17:23:54,754 - INFO - [✔] Registro con ID 63 actualizado en jobs.
+2025-03-12 17:23:54,757 - INFO - [✔] Registro con ID 64 actualizado en jobs.
+2025-03-12 17:23:54,760 - INFO - [✔] Registro con ID 65 actualizado en jobs.
+2025-03-12 17:23:54,762 - INFO - [✔] Registro con ID 66 actualizado en jobs.
+2025-03-12 17:23:54,764 - INFO - [✔] Registro con ID 67 actualizado en jobs.
+2025-03-12 17:23:54,767 - INFO - [✔] Registro con ID 68 actualizado en jobs.
+2025-03-12 17:23:54,771 - INFO - [✔] Registro con ID 69 actualizado en jobs.
+2025-03-12 17:23:54,774 - INFO - [✔] Registro con ID 70 actualizado en jobs.
+2025-03-12 17:23:54,776 - INFO - [✔] Registro con ID 71 actualizado en jobs.
+2025-03-12 17:23:54,779 - INFO - [✔] Registro con ID 72 actualizado en jobs.
+2025-03-12 17:23:54,781 - INFO - [✔] Registro con ID 73 actualizado en jobs.
+2025-03-12 17:23:54,784 - INFO - [✔] Registro con ID 74 actualizado en jobs.
+2025-03-12 17:23:54,789 - INFO - [✔] Registro con ID 75 actualizado en jobs.
+2025-03-12 17:23:54,791 - INFO - [✔] Registro con ID 76 actualizado en jobs.
+2025-03-12 17:23:54,793 - INFO - [✔] Registro con ID 77 actualizado en jobs.
+2025-03-12 17:23:54,795 - INFO - [✔] Registro con ID 78 actualizado en jobs.
+2025-03-12 17:23:54,797 - INFO - [✔] Registro con ID 79 actualizado en jobs.
+2025-03-12 17:23:54,800 - INFO - [✔] Registro con ID 80 actualizado en jobs.
+2025-03-12 17:23:54,808 - INFO - [✔] Registro con ID 81 actualizado en jobs.
+2025-03-12 17:23:54,810 - INFO - [✔] Registro con ID 82 actualizado en jobs.
+2025-03-12 17:23:54,813 - INFO - [✔] Registro con ID 83 actualizado en jobs.
+2025-03-12 17:23:54,816 - INFO - [✔] Registro con ID 84 actualizado en jobs.
+2025-03-12 17:23:54,820 - INFO - [✔] Registro con ID 85 actualizado en jobs.
+2025-03-12 17:23:54,823 - INFO - [✔] Registro con ID 86 actualizado en jobs.
+2025-03-12 17:23:54,825 - INFO - [✔] Registro con ID 87 actualizado en jobs.
+2025-03-12 17:23:54,828 - INFO - [✔] Registro con ID 88 actualizado en jobs.
+2025-03-12 17:23:54,830 - INFO - [✔] Registro con ID 89 actualizado en jobs.
+2025-03-12 17:23:54,832 - INFO - [✔] Registro con ID 90 actualizado en jobs.
+2025-03-12 17:23:54,838 - INFO - [✔] Registro con ID 91 actualizado en jobs.
+2025-03-12 17:23:54,841 - INFO - [✔] Registro con ID 92 actualizado en jobs.
+2025-03-12 17:23:54,843 - INFO - [✔] Registro con ID 93 actualizado en jobs.
+2025-03-12 17:23:54,846 - INFO - [✔] Registro con ID 94 actualizado en jobs.
+2025-03-12 17:23:54,848 - INFO - [✔] Registro con ID 95 actualizado en jobs.
+2025-03-12 17:23:54,850 - INFO - [✔] Registro con ID 96 actualizado en jobs.
+2025-03-12 17:23:54,855 - INFO - [✔] Registro con ID 97 actualizado en jobs.
+2025-03-12 17:23:54,857 - INFO - [✔] Registro con ID 98 actualizado en jobs.
+2025-03-12 17:23:54,860 - INFO - [✔] Registro con ID 99 actualizado en jobs.
+2025-03-12 17:23:54,863 - INFO - [✔] Registro con ID 100 actualizado en jobs.
+2025-03-12 17:23:54,865 - INFO - [✔] Registro con ID 101 actualizado en jobs.
+2025-03-12 17:23:54,868 - INFO - [✔] Registro con ID 102 actualizado en jobs.
+2025-03-12 17:23:54,873 - INFO - [✔] Registro con ID 103 actualizado en jobs.
+2025-03-12 17:23:54,875 - INFO - [✔] Registro con ID 104 actualizado en jobs.
+2025-03-12 17:23:54,878 - INFO - [✔] Registro con ID 105 actualizado en jobs.
+2025-03-12 17:23:54,881 - INFO - [✔] Registro con ID 106 actualizado en jobs.
+2025-03-12 17:23:54,886 - INFO - [✔] Registro con ID 107 actualizado en jobs.
+2025-03-12 17:23:54,891 - INFO - [✔] Registro con ID 108 actualizado en jobs.
+2025-03-12 17:23:54,895 - INFO - [✔] Registro con ID 109 actualizado en jobs.
+2025-03-12 17:23:54,898 - INFO - [✔] Registro con ID 110 actualizado en jobs.
+2025-03-12 17:23:54,901 - INFO - [✔] Registro con ID 111 actualizado en jobs.
+2025-03-12 17:23:54,908 - INFO - [✔] Registro con ID 112 actualizado en jobs.
+2025-03-12 17:23:54,911 - INFO - [✔] Registro con ID 113 actualizado en jobs.
+2025-03-12 17:23:54,914 - INFO - [✔] Registro con ID 114 actualizado en jobs.
+2025-03-12 17:23:54,916 - INFO - [✔] Registro con ID 115 actualizado en jobs.
+2025-03-12 17:23:54,922 - INFO - [✔] Registro con ID 116 actualizado en jobs.
+2025-03-12 17:23:54,925 - INFO - [✔] Registro con ID 117 actualizado en jobs.
+2025-03-12 17:23:54,927 - INFO - [✔] Registro con ID 118 actualizado en jobs.
+2025-03-12 17:23:54,930 - INFO - [✔] Registro con ID 119 actualizado en jobs.
+2025-03-12 17:23:54,933 - INFO - [✔] Registro con ID 120 actualizado en jobs.
+2025-03-12 17:23:54,938 - INFO - [✔] Registro con ID 121 actualizado en jobs.
+2025-03-12 17:23:54,943 - INFO - [✔] Registro con ID 122 actualizado en jobs.
+2025-03-12 17:23:54,945 - INFO - [✔] Registro con ID 123 actualizado en jobs.
+2025-03-12 17:23:54,948 - INFO - [✔] Registro con ID 124 actualizado en jobs.
+2025-03-12 17:23:54,952 - INFO - [✔] Registro con ID 125 actualizado en jobs.
+2025-03-12 17:23:54,956 - INFO - [✔] Registro con ID 126 actualizado en jobs.
+2025-03-12 17:23:54,959 - INFO - [✔] Registro con ID 127 actualizado en jobs.
+2025-03-12 17:23:54,962 - INFO - [✔] Registro con ID 128 actualizado en jobs.
+2025-03-12 17:23:54,964 - INFO - [✔] Registro con ID 129 actualizado en jobs.
+2025-03-12 17:23:54,968 - INFO - [✔] Registro con ID 130 actualizado en jobs.
+2025-03-12 17:23:54,974 - INFO - [✔] Registro con ID 131 actualizado en jobs.
+2025-03-12 17:23:54,977 - INFO - [✔] Registro con ID 132 actualizado en jobs.
+2025-03-12 17:23:54,980 - INFO - [✔] Registro con ID 133 actualizado en jobs.
+2025-03-12 17:23:54,982 - INFO - [✔] Registro con ID 134 actualizado en jobs.
+2025-03-12 17:23:54,987 - INFO - [✔] Registro con ID 135 actualizado en jobs.
+2025-03-12 17:23:54,991 - INFO - [✔] Registro con ID 136 actualizado en jobs.
+2025-03-12 17:23:54,995 - INFO - [✔] Registro con ID 137 actualizado en jobs.
+2025-03-12 17:23:54,998 - INFO - [✔] Registro con ID 138 actualizado en jobs.
+2025-03-12 17:23:55,004 - INFO - [✔] Registro con ID 139 actualizado en jobs.
+2025-03-12 17:23:55,009 - INFO - [✔] Registro con ID 140 actualizado en jobs.
+2025-03-12 17:23:55,013 - INFO - [✔] Registro con ID 141 actualizado en jobs.
+2025-03-12 17:23:55,015 - INFO - [✔] Registro con ID 142 actualizado en jobs.
+2025-03-12 17:23:55,023 - INFO - [✔] Registro con ID 143 actualizado en jobs.
+2025-03-12 17:23:55,027 - INFO - [✔] Registro con ID 144 actualizado en jobs.
+2025-03-12 17:23:55,031 - INFO - [✔] Registro con ID 145 actualizado en jobs.
+2025-03-12 17:23:55,034 - INFO - [✔] Registro con ID 146 actualizado en jobs.
+2025-03-12 17:23:55,039 - INFO - [✔] Registro con ID 147 actualizado en jobs.
+2025-03-12 17:23:55,042 - INFO - [✔] Registro con ID 148 actualizado en jobs.
+2025-03-12 17:23:55,045 - INFO - [✔] Registro con ID 149 actualizado en jobs.
+2025-03-12 17:23:55,048 - INFO - [✔] Registro con ID 150 actualizado en jobs.
+2025-03-12 17:23:55,050 - INFO - [✔] Registro con ID 151 actualizado en jobs.
+2025-03-12 17:23:55,055 - INFO - [✔] Registro con ID 152 actualizado en jobs.
+2025-03-12 17:23:55,057 - INFO - [✔] Registro con ID 153 actualizado en jobs.
+2025-03-12 17:23:55,060 - INFO - [✔] Registro con ID 154 actualizado en jobs.
+2025-03-12 17:23:55,063 - INFO - [✔] Registro con ID 155 actualizado en jobs.
+2025-03-12 17:23:55,065 - INFO - [✔] Registro con ID 156 actualizado en jobs.
+2025-03-12 17:23:55,068 - INFO - [✔] Registro con ID 157 actualizado en jobs.
+2025-03-12 17:23:55,072 - INFO - [✔] Registro con ID 158 actualizado en jobs.
+2025-03-12 17:23:55,074 - INFO - [✔] Registro con ID 159 actualizado en jobs.
+2025-03-12 17:23:55,077 - INFO - [✔] Registro con ID 160 actualizado en jobs.
+2025-03-12 17:23:55,080 - INFO - [✔] Registro con ID 161 actualizado en jobs.
+2025-03-12 17:23:55,083 - INFO - [✔] Registro con ID 162 actualizado en jobs.
+2025-03-12 17:23:55,088 - INFO - [✔] Registro con ID 163 actualizado en jobs.
+2025-03-12 17:23:55,091 - INFO - [✔] Registro con ID 164 actualizado en jobs.
+2025-03-12 17:23:55,094 - INFO - [✔] Registro con ID 165 actualizado en jobs.
+2025-03-12 17:23:55,096 - INFO - [✔] Registro con ID 166 actualizado en jobs.
+2025-03-12 17:23:55,099 - INFO - [✔] Registro con ID 167 actualizado en jobs.
+2025-03-12 17:23:55,101 - INFO - [✔] Registro con ID 168 actualizado en jobs.
+2025-03-12 17:23:55,105 - INFO - [✔] Registro con ID 169 actualizado en jobs.
+2025-03-12 17:23:55,108 - INFO - [✔] Registro con ID 170 actualizado en jobs.
+2025-03-12 17:23:55,111 - INFO - [✔] Registro con ID 171 actualizado en jobs.
+2025-03-12 17:23:55,114 - INFO - [✔] Registro con ID 172 actualizado en jobs.
+2025-03-12 17:23:55,117 - INFO - [✔] Registro con ID 173 actualizado en jobs.
+2025-03-12 17:23:55,121 - INFO - [✔] Registro con ID 174 actualizado en jobs.
+2025-03-12 17:23:55,124 - INFO - [✔] Registro con ID 175 actualizado en jobs.
+2025-03-12 17:23:55,126 - INFO - [✔] Registro con ID 176 actualizado en jobs.
+2025-03-12 17:23:55,128 - INFO - [✔] Registro con ID 177 actualizado en jobs.
+2025-03-12 17:23:55,131 - INFO - [✔] Registro con ID 178 actualizado en jobs.
+2025-03-12 17:23:55,133 - INFO - [✔] Registro con ID 179 actualizado en jobs.
+2025-03-12 17:23:55,136 - INFO - [✔] Registro con ID 180 actualizado en jobs.
+2025-03-12 17:23:55,141 - INFO - [✔] Registro con ID 181 actualizado en jobs.
+2025-03-12 17:23:55,145 - INFO - [✔] Registro con ID 182 actualizado en jobs.
+2025-03-12 17:23:55,149 - INFO - [✔] Registro con ID 183 actualizado en jobs.
+2025-03-12 17:23:55,152 - INFO - [✔] Registros duplicados en jobs han sido actualizados o insertados correctamente.
+2025-03-12 17:23:55,163 - ERROR - [ERROR] Formato de fecha incorrecto en 2021-05-30T05:43:46Z: cannot convert float NaN to integer
+2025-03-12 17:23:55,164 - ERROR - [ERROR] Formato de fecha incorrecto: 2021-05-30T05:43:46Z
+2025-03-12 17:26:57,588 - INFO - 📂 Recibiendo archivos CSV...
+2025-03-12 17:26:57,594 - INFO - [✔] Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 17:26:57,600 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv (12 filas)
+2025-03-12 17:26:57,610 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv (1999 filas)
+2025-03-12 17:26:57,615 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv (183 filas)
+2025-03-12 17:26:57,631 - WARNING - [⚠] Conflicto de ID detectado en departments. Intentando actualización...
+2025-03-12 17:26:57,637 - INFO - [✔] Registro con ID 1 actualizado en departments.
+2025-03-12 17:26:57,640 - INFO - [✔] Registro con ID 2 actualizado en departments.
+2025-03-12 17:26:57,643 - INFO - [✔] Registro con ID 3 actualizado en departments.
+2025-03-12 17:26:57,647 - INFO - [✔] Registro con ID 4 actualizado en departments.
+2025-03-12 17:26:57,648 - INFO - [✔] Registro con ID 5 actualizado en departments.
+2025-03-12 17:26:57,651 - INFO - [✔] Registro con ID 6 actualizado en departments.
+2025-03-12 17:26:57,652 - INFO - [✔] Registro con ID 7 actualizado en departments.
+2025-03-12 17:26:57,654 - INFO - [✔] Registro con ID 8 actualizado en departments.
+2025-03-12 17:26:57,657 - INFO - [✔] Registro con ID 9 actualizado en departments.
+2025-03-12 17:26:57,660 - INFO - [✔] Registro con ID 10 actualizado en departments.
+2025-03-12 17:26:57,663 - INFO - [✔] Registro con ID 11 actualizado en departments.
+2025-03-12 17:26:57,665 - INFO - [✔] Registro con ID 12 actualizado en departments.
+2025-03-12 17:26:57,666 - INFO - [✔] Registros duplicados en departments han sido actualizados o insertados correctamente.
+2025-03-12 17:26:57,684 - WARNING - [⚠] Conflicto de ID detectado en jobs. Intentando actualización...
+2025-03-12 17:26:57,686 - INFO - [✔] Registro con ID 1 actualizado en jobs.
+2025-03-12 17:26:57,689 - INFO - [✔] Registro con ID 2 actualizado en jobs.
+2025-03-12 17:26:57,692 - INFO - [✔] Registro con ID 3 actualizado en jobs.
+2025-03-12 17:26:57,694 - INFO - [✔] Registro con ID 4 actualizado en jobs.
+2025-03-12 17:26:57,696 - INFO - [✔] Registro con ID 5 actualizado en jobs.
+2025-03-12 17:26:57,699 - INFO - [✔] Registro con ID 6 actualizado en jobs.
+2025-03-12 17:26:57,701 - INFO - [✔] Registro con ID 7 actualizado en jobs.
+2025-03-12 17:26:57,702 - INFO - [✔] Registro con ID 8 actualizado en jobs.
+2025-03-12 17:26:57,704 - INFO - [✔] Registro con ID 9 actualizado en jobs.
+2025-03-12 17:26:57,706 - INFO - [✔] Registro con ID 10 actualizado en jobs.
+2025-03-12 17:26:57,709 - INFO - [✔] Registro con ID 11 actualizado en jobs.
+2025-03-12 17:26:57,711 - INFO - [✔] Registro con ID 12 actualizado en jobs.
+2025-03-12 17:26:57,714 - INFO - [✔] Registro con ID 13 actualizado en jobs.
+2025-03-12 17:26:57,718 - INFO - [✔] Registro con ID 14 actualizado en jobs.
+2025-03-12 17:26:57,719 - INFO - [✔] Registro con ID 15 actualizado en jobs.
+2025-03-12 17:26:57,721 - INFO - [✔] Registro con ID 16 actualizado en jobs.
+2025-03-12 17:26:57,722 - INFO - [✔] Registro con ID 17 actualizado en jobs.
+2025-03-12 17:26:57,724 - INFO - [✔] Registro con ID 18 actualizado en jobs.
+2025-03-12 17:26:57,725 - INFO - [✔] Registro con ID 19 actualizado en jobs.
+2025-03-12 17:26:57,729 - INFO - [✔] Registro con ID 20 actualizado en jobs.
+2025-03-12 17:26:57,730 - INFO - [✔] Registro con ID 21 actualizado en jobs.
+2025-03-12 17:26:57,732 - INFO - [✔] Registro con ID 22 actualizado en jobs.
+2025-03-12 17:26:57,733 - INFO - [✔] Registro con ID 23 actualizado en jobs.
+2025-03-12 17:26:57,735 - INFO - [✔] Registro con ID 24 actualizado en jobs.
+2025-03-12 17:26:57,738 - INFO - [✔] Registro con ID 25 actualizado en jobs.
+2025-03-12 17:26:57,740 - INFO - [✔] Registro con ID 26 actualizado en jobs.
+2025-03-12 17:26:57,742 - INFO - [✔] Registro con ID 27 actualizado en jobs.
+2025-03-12 17:26:57,745 - INFO - [✔] Registro con ID 28 actualizado en jobs.
+2025-03-12 17:26:57,746 - INFO - [✔] Registro con ID 29 actualizado en jobs.
+2025-03-12 17:26:57,748 - INFO - [✔] Registro con ID 30 actualizado en jobs.
+2025-03-12 17:26:57,749 - INFO - [✔] Registro con ID 31 actualizado en jobs.
+2025-03-12 17:26:57,750 - INFO - [✔] Registro con ID 32 actualizado en jobs.
+2025-03-12 17:26:57,751 - INFO - [✔] Registro con ID 33 actualizado en jobs.
+2025-03-12 17:26:57,752 - INFO - [✔] Registro con ID 34 actualizado en jobs.
+2025-03-12 17:26:57,753 - INFO - [✔] Registro con ID 35 actualizado en jobs.
+2025-03-12 17:26:57,754 - INFO - [✔] Registro con ID 36 actualizado en jobs.
+2025-03-12 17:26:57,756 - INFO - [✔] Registro con ID 37 actualizado en jobs.
+2025-03-12 17:26:57,760 - INFO - [✔] Registro con ID 38 actualizado en jobs.
+2025-03-12 17:26:57,763 - INFO - [✔] Registro con ID 39 actualizado en jobs.
+2025-03-12 17:26:57,764 - INFO - [✔] Registro con ID 40 actualizado en jobs.
+2025-03-12 17:26:57,766 - INFO - [✔] Registro con ID 41 actualizado en jobs.
+2025-03-12 17:26:57,767 - INFO - [✔] Registro con ID 42 actualizado en jobs.
+2025-03-12 17:26:57,769 - INFO - [✔] Registro con ID 43 actualizado en jobs.
+2025-03-12 17:26:57,770 - INFO - [✔] Registro con ID 44 actualizado en jobs.
+2025-03-12 17:26:57,772 - INFO - [✔] Registro con ID 45 actualizado en jobs.
+2025-03-12 17:26:57,774 - INFO - [✔] Registro con ID 46 actualizado en jobs.
+2025-03-12 17:26:57,777 - INFO - [✔] Registro con ID 47 actualizado en jobs.
+2025-03-12 17:26:57,779 - INFO - [✔] Registro con ID 48 actualizado en jobs.
+2025-03-12 17:26:57,780 - INFO - [✔] Registro con ID 49 actualizado en jobs.
+2025-03-12 17:26:57,781 - INFO - [✔] Registro con ID 50 actualizado en jobs.
+2025-03-12 17:26:57,783 - INFO - [✔] Registro con ID 51 actualizado en jobs.
+2025-03-12 17:26:57,784 - INFO - [✔] Registro con ID 52 actualizado en jobs.
+2025-03-12 17:26:57,785 - INFO - [✔] Registro con ID 53 actualizado en jobs.
+2025-03-12 17:26:57,787 - INFO - [✔] Registro con ID 54 actualizado en jobs.
+2025-03-12 17:26:57,788 - INFO - [✔] Registro con ID 55 actualizado en jobs.
+2025-03-12 17:26:57,789 - INFO - [✔] Registro con ID 56 actualizado en jobs.
+2025-03-12 17:26:57,792 - INFO - [✔] Registro con ID 57 actualizado en jobs.
+2025-03-12 17:26:57,795 - INFO - [✔] Registro con ID 58 actualizado en jobs.
+2025-03-12 17:26:57,797 - INFO - [✔] Registro con ID 59 actualizado en jobs.
+2025-03-12 17:26:57,798 - INFO - [✔] Registro con ID 60 actualizado en jobs.
+2025-03-12 17:26:57,800 - INFO - [✔] Registro con ID 61 actualizado en jobs.
+2025-03-12 17:26:57,801 - INFO - [✔] Registro con ID 62 actualizado en jobs.
+2025-03-12 17:26:57,803 - INFO - [✔] Registro con ID 63 actualizado en jobs.
+2025-03-12 17:26:57,804 - INFO - [✔] Registro con ID 64 actualizado en jobs.
+2025-03-12 17:26:57,807 - INFO - [✔] Registro con ID 65 actualizado en jobs.
+2025-03-12 17:26:57,810 - INFO - [✔] Registro con ID 66 actualizado en jobs.
+2025-03-12 17:26:57,812 - INFO - [✔] Registro con ID 67 actualizado en jobs.
+2025-03-12 17:26:57,814 - INFO - [✔] Registro con ID 68 actualizado en jobs.
+2025-03-12 17:26:57,815 - INFO - [✔] Registro con ID 69 actualizado en jobs.
+2025-03-12 17:26:57,817 - INFO - [✔] Registro con ID 70 actualizado en jobs.
+2025-03-12 17:26:57,818 - INFO - [✔] Registro con ID 71 actualizado en jobs.
+2025-03-12 17:26:57,820 - INFO - [✔] Registro con ID 72 actualizado en jobs.
+2025-03-12 17:26:57,821 - INFO - [✔] Registro con ID 73 actualizado en jobs.
+2025-03-12 17:26:57,824 - INFO - [✔] Registro con ID 74 actualizado en jobs.
+2025-03-12 17:26:57,827 - INFO - [✔] Registro con ID 75 actualizado en jobs.
+2025-03-12 17:26:57,829 - INFO - [✔] Registro con ID 76 actualizado en jobs.
+2025-03-12 17:26:57,831 - INFO - [✔] Registro con ID 77 actualizado en jobs.
+2025-03-12 17:26:57,832 - INFO - [✔] Registro con ID 78 actualizado en jobs.
+2025-03-12 17:26:57,834 - INFO - [✔] Registro con ID 79 actualizado en jobs.
+2025-03-12 17:26:57,836 - INFO - [✔] Registro con ID 80 actualizado en jobs.
+2025-03-12 17:26:57,837 - INFO - [✔] Registro con ID 81 actualizado en jobs.
+2025-03-12 17:26:57,839 - INFO - [✔] Registro con ID 82 actualizado en jobs.
+2025-03-12 17:26:57,842 - INFO - [✔] Registro con ID 83 actualizado en jobs.
+2025-03-12 17:26:57,845 - INFO - [✔] Registro con ID 84 actualizado en jobs.
+2025-03-12 17:26:57,847 - INFO - [✔] Registro con ID 85 actualizado en jobs.
+2025-03-12 17:26:57,848 - INFO - [✔] Registro con ID 86 actualizado en jobs.
+2025-03-12 17:26:57,850 - INFO - [✔] Registro con ID 87 actualizado en jobs.
+2025-03-12 17:26:57,852 - INFO - [✔] Registro con ID 88 actualizado en jobs.
+2025-03-12 17:26:57,853 - INFO - [✔] Registro con ID 89 actualizado en jobs.
+2025-03-12 17:26:57,855 - INFO - [✔] Registro con ID 90 actualizado en jobs.
+2025-03-12 17:26:57,856 - INFO - [✔] Registro con ID 91 actualizado en jobs.
+2025-03-12 17:26:57,860 - INFO - [✔] Registro con ID 92 actualizado en jobs.
+2025-03-12 17:26:57,862 - INFO - [✔] Registro con ID 93 actualizado en jobs.
+2025-03-12 17:26:57,864 - INFO - [✔] Registro con ID 94 actualizado en jobs.
+2025-03-12 17:26:57,865 - INFO - [✔] Registro con ID 95 actualizado en jobs.
+2025-03-12 17:26:57,867 - INFO - [✔] Registro con ID 96 actualizado en jobs.
+2025-03-12 17:26:57,868 - INFO - [✔] Registro con ID 97 actualizado en jobs.
+2025-03-12 17:26:57,870 - INFO - [✔] Registro con ID 98 actualizado en jobs.
+2025-03-12 17:26:57,871 - INFO - [✔] Registro con ID 99 actualizado en jobs.
+2025-03-12 17:26:57,873 - INFO - [✔] Registro con ID 100 actualizado en jobs.
+2025-03-12 17:26:57,875 - INFO - [✔] Registro con ID 101 actualizado en jobs.
+2025-03-12 17:26:57,878 - INFO - [✔] Registro con ID 102 actualizado en jobs.
+2025-03-12 17:26:57,880 - INFO - [✔] Registro con ID 103 actualizado en jobs.
+2025-03-12 17:26:57,881 - INFO - [✔] Registro con ID 104 actualizado en jobs.
+2025-03-12 17:26:57,882 - INFO - [✔] Registro con ID 105 actualizado en jobs.
+2025-03-12 17:26:57,884 - INFO - [✔] Registro con ID 106 actualizado en jobs.
+2025-03-12 17:26:57,885 - INFO - [✔] Registro con ID 107 actualizado en jobs.
+2025-03-12 17:26:57,886 - INFO - [✔] Registro con ID 108 actualizado en jobs.
+2025-03-12 17:26:57,887 - INFO - [✔] Registro con ID 109 actualizado en jobs.
+2025-03-12 17:26:57,889 - INFO - [✔] Registro con ID 110 actualizado en jobs.
+2025-03-12 17:26:57,891 - INFO - [✔] Registro con ID 111 actualizado en jobs.
+2025-03-12 17:26:57,894 - INFO - [✔] Registro con ID 112 actualizado en jobs.
+2025-03-12 17:26:57,895 - INFO - [✔] Registro con ID 113 actualizado en jobs.
+2025-03-12 17:26:57,897 - INFO - [✔] Registro con ID 114 actualizado en jobs.
+2025-03-12 17:26:57,898 - INFO - [✔] Registro con ID 115 actualizado en jobs.
+2025-03-12 17:26:57,899 - INFO - [✔] Registro con ID 116 actualizado en jobs.
+2025-03-12 17:26:57,901 - INFO - [✔] Registro con ID 117 actualizado en jobs.
+2025-03-12 17:26:57,902 - INFO - [✔] Registro con ID 118 actualizado en jobs.
+2025-03-12 17:26:57,903 - INFO - [✔] Registro con ID 119 actualizado en jobs.
+2025-03-12 17:26:57,905 - INFO - [✔] Registro con ID 120 actualizado en jobs.
+2025-03-12 17:26:57,907 - INFO - [✔] Registro con ID 121 actualizado en jobs.
+2025-03-12 17:26:57,909 - INFO - [✔] Registro con ID 122 actualizado en jobs.
+2025-03-12 17:26:57,912 - INFO - [✔] Registro con ID 123 actualizado en jobs.
+2025-03-12 17:26:57,914 - INFO - [✔] Registro con ID 124 actualizado en jobs.
+2025-03-12 17:26:57,915 - INFO - [✔] Registro con ID 125 actualizado en jobs.
+2025-03-12 17:26:57,917 - INFO - [✔] Registro con ID 126 actualizado en jobs.
+2025-03-12 17:26:57,918 - INFO - [✔] Registro con ID 127 actualizado en jobs.
+2025-03-12 17:26:57,920 - INFO - [✔] Registro con ID 128 actualizado en jobs.
+2025-03-12 17:26:57,921 - INFO - [✔] Registro con ID 129 actualizado en jobs.
+2025-03-12 17:26:57,922 - INFO - [✔] Registro con ID 130 actualizado en jobs.
+2025-03-12 17:26:57,924 - INFO - [✔] Registro con ID 131 actualizado en jobs.
+2025-03-12 17:26:57,927 - INFO - [✔] Registro con ID 132 actualizado en jobs.
+2025-03-12 17:26:57,930 - INFO - [✔] Registro con ID 133 actualizado en jobs.
+2025-03-12 17:26:57,931 - INFO - [✔] Registro con ID 134 actualizado en jobs.
+2025-03-12 17:26:57,932 - INFO - [✔] Registro con ID 135 actualizado en jobs.
+2025-03-12 17:26:57,934 - INFO - [✔] Registro con ID 136 actualizado en jobs.
+2025-03-12 17:26:57,935 - INFO - [✔] Registro con ID 137 actualizado en jobs.
+2025-03-12 17:26:57,937 - INFO - [✔] Registro con ID 138 actualizado en jobs.
+2025-03-12 17:26:57,939 - INFO - [✔] Registro con ID 139 actualizado en jobs.
+2025-03-12 17:26:57,941 - INFO - [✔] Registro con ID 140 actualizado en jobs.
+2025-03-12 17:26:57,944 - INFO - [✔] Registro con ID 141 actualizado en jobs.
+2025-03-12 17:26:57,946 - INFO - [✔] Registro con ID 142 actualizado en jobs.
+2025-03-12 17:26:57,947 - INFO - [✔] Registro con ID 143 actualizado en jobs.
+2025-03-12 17:26:57,948 - INFO - [✔] Registro con ID 144 actualizado en jobs.
+2025-03-12 17:26:57,949 - INFO - [✔] Registro con ID 145 actualizado en jobs.
+2025-03-12 17:26:57,951 - INFO - [✔] Registro con ID 146 actualizado en jobs.
+2025-03-12 17:26:57,953 - INFO - [✔] Registro con ID 147 actualizado en jobs.
+2025-03-12 17:26:57,954 - INFO - [✔] Registro con ID 148 actualizado en jobs.
+2025-03-12 17:26:57,955 - INFO - [✔] Registro con ID 149 actualizado en jobs.
+2025-03-12 17:26:57,958 - INFO - [✔] Registro con ID 150 actualizado en jobs.
+2025-03-12 17:26:57,961 - INFO - [✔] Registro con ID 151 actualizado en jobs.
+2025-03-12 17:26:57,963 - INFO - [✔] Registro con ID 152 actualizado en jobs.
+2025-03-12 17:26:57,964 - INFO - [✔] Registro con ID 153 actualizado en jobs.
+2025-03-12 17:26:57,966 - INFO - [✔] Registro con ID 154 actualizado en jobs.
+2025-03-12 17:26:57,967 - INFO - [✔] Registro con ID 155 actualizado en jobs.
+2025-03-12 17:26:57,969 - INFO - [✔] Registro con ID 156 actualizado en jobs.
+2025-03-12 17:26:57,970 - INFO - [✔] Registro con ID 157 actualizado en jobs.
+2025-03-12 17:26:57,972 - INFO - [✔] Registro con ID 158 actualizado en jobs.
+2025-03-12 17:26:57,973 - INFO - [✔] Registro con ID 159 actualizado en jobs.
+2025-03-12 17:26:57,976 - INFO - [✔] Registro con ID 160 actualizado en jobs.
+2025-03-12 17:26:57,978 - INFO - [✔] Registro con ID 161 actualizado en jobs.
+2025-03-12 17:26:57,980 - INFO - [✔] Registro con ID 162 actualizado en jobs.
+2025-03-12 17:26:57,981 - INFO - [✔] Registro con ID 163 actualizado en jobs.
+2025-03-12 17:26:57,982 - INFO - [✔] Registro con ID 164 actualizado en jobs.
+2025-03-12 17:26:57,983 - INFO - [✔] Registro con ID 165 actualizado en jobs.
+2025-03-12 17:26:57,984 - INFO - [✔] Registro con ID 166 actualizado en jobs.
+2025-03-12 17:26:57,985 - INFO - [✔] Registro con ID 167 actualizado en jobs.
+2025-03-12 17:26:57,986 - INFO - [✔] Registro con ID 168 actualizado en jobs.
+2025-03-12 17:26:57,987 - INFO - [✔] Registro con ID 169 actualizado en jobs.
+2025-03-12 17:26:57,989 - INFO - [✔] Registro con ID 170 actualizado en jobs.
+2025-03-12 17:26:57,991 - INFO - [✔] Registro con ID 171 actualizado en jobs.
+2025-03-12 17:26:57,993 - INFO - [✔] Registro con ID 172 actualizado en jobs.
+2025-03-12 17:26:57,995 - INFO - [✔] Registro con ID 173 actualizado en jobs.
+2025-03-12 17:26:57,997 - INFO - [✔] Registro con ID 174 actualizado en jobs.
+2025-03-12 17:26:57,998 - INFO - [✔] Registro con ID 175 actualizado en jobs.
+2025-03-12 17:26:57,999 - INFO - [✔] Registro con ID 176 actualizado en jobs.
+2025-03-12 17:26:58,001 - INFO - [✔] Registro con ID 177 actualizado en jobs.
+2025-03-12 17:26:58,002 - INFO - [✔] Registro con ID 178 actualizado en jobs.
+2025-03-12 17:26:58,003 - INFO - [✔] Registro con ID 179 actualizado en jobs.
+2025-03-12 17:26:58,004 - INFO - [✔] Registro con ID 180 actualizado en jobs.
+2025-03-12 17:26:58,006 - INFO - [✔] Registro con ID 181 actualizado en jobs.
+2025-03-12 17:26:58,009 - INFO - [✔] Registro con ID 182 actualizado en jobs.
+2025-03-12 17:26:58,011 - INFO - [✔] Registro con ID 183 actualizado en jobs.
+2025-03-12 17:26:58,011 - INFO - [✔] Registros duplicados en jobs han sido actualizados o insertados correctamente.
+2025-03-12 17:26:58,016 - ERROR - [ERROR] Formato de fecha incorrecto en 2021-05-30T05:43:46Z: cannot convert float NaN to integer
+2025-03-12 17:26:58,016 - ERROR - [ERROR] Formato de fecha incorrecto: 2021-05-30T05:43:46Z
+2025-03-12 17:30:28,304 - INFO - 📂 Recibiendo archivos CSV...
+2025-03-12 17:30:28,310 - INFO - [✔] Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 17:30:28,315 - ERROR - [ERROR] No se pudo cargar el archivo CSV: Must specify a fill 'value' or 'method'.
+2025-03-12 17:30:28,329 - ERROR - [ERROR] No se pudo cargar el archivo CSV: Must specify a fill 'value' or 'method'.
+2025-03-12 17:30:28,334 - ERROR - [ERROR] No se pudo cargar el archivo CSV: Must specify a fill 'value' or 'method'.
+2025-03-12 17:31:59,313 - INFO - 📂 Recibiendo archivos CSV...
+2025-03-12 17:31:59,321 - INFO - [✔] Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 17:31:59,373 - ERROR - [ERROR] No se pudo cargar el archivo CSV: Must specify a fill 'value' or 'method'.
+2025-03-12 17:31:59,387 - ERROR - [ERROR] No se pudo cargar el archivo CSV: Must specify a fill 'value' or 'method'.
+2025-03-12 17:31:59,393 - ERROR - [ERROR] No se pudo cargar el archivo CSV: Must specify a fill 'value' or 'method'.
+2025-03-12 17:33:31,039 - INFO - 📂 Recibiendo archivos CSV...
+2025-03-12 17:33:31,044 - INFO - [✔] Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 17:33:31,050 - ERROR - [ERROR] No se pudo cargar el archivo CSV: Must specify a fill 'value' or 'method'.
+2025-03-12 17:33:31,061 - ERROR - [ERROR] No se pudo cargar el archivo CSV: Must specify a fill 'value' or 'method'.
+2025-03-12 17:33:31,066 - ERROR - [ERROR] No se pudo cargar el archivo CSV: Must specify a fill 'value' or 'method'.
+2025-03-12 17:35:54,137 - INFO - 📂 Recibiendo archivos CSV...
+2025-03-12 17:35:54,143 - INFO - [✔] Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 17:35:54,151 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv (12 filas)
+2025-03-12 17:35:54,165 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv (1999 filas)
+2025-03-12 17:35:54,170 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv (183 filas)
+2025-03-12 17:35:54,187 - WARNING - [⚠] Conflicto de ID detectado en departments. Intentando actualización...
+2025-03-12 17:35:54,192 - INFO - [✔] Registro con ID 1 actualizado en departments.
+2025-03-12 17:35:54,194 - INFO - [✔] Registro con ID 2 actualizado en departments.
+2025-03-12 17:35:54,197 - INFO - [✔] Registro con ID 3 actualizado en departments.
+2025-03-12 17:35:54,199 - INFO - [✔] Registro con ID 4 actualizado en departments.
+2025-03-12 17:35:54,201 - INFO - [✔] Registro con ID 5 actualizado en departments.
+2025-03-12 17:35:54,203 - INFO - [✔] Registro con ID 6 actualizado en departments.
+2025-03-12 17:35:54,204 - INFO - [✔] Registro con ID 7 actualizado en departments.
+2025-03-12 17:35:54,207 - INFO - [✔] Registro con ID 8 actualizado en departments.
+2025-03-12 17:35:54,210 - INFO - [✔] Registro con ID 9 actualizado en departments.
+2025-03-12 17:35:54,213 - INFO - [✔] Registro con ID 10 actualizado en departments.
+2025-03-12 17:35:54,215 - INFO - [✔] Registro con ID 11 actualizado en departments.
+2025-03-12 17:35:54,217 - INFO - [✔] Registro con ID 12 actualizado en departments.
+2025-03-12 17:35:54,218 - INFO - [✔] Registros duplicados en departments han sido actualizados o insertados correctamente.
+2025-03-12 17:35:54,239 - WARNING - [⚠] Conflicto de ID detectado en jobs. Intentando actualización...
+2025-03-12 17:35:54,242 - INFO - [✔] Registro con ID 1 actualizado en jobs.
+2025-03-12 17:35:54,245 - INFO - [✔] Registro con ID 2 actualizado en jobs.
+2025-03-12 17:35:54,247 - INFO - [✔] Registro con ID 3 actualizado en jobs.
+2025-03-12 17:35:54,249 - INFO - [✔] Registro con ID 4 actualizado en jobs.
+2025-03-12 17:35:54,251 - INFO - [✔] Registro con ID 5 actualizado en jobs.
+2025-03-12 17:35:54,253 - INFO - [✔] Registro con ID 6 actualizado en jobs.
+2025-03-12 17:35:54,254 - INFO - [✔] Registro con ID 7 actualizado en jobs.
+2025-03-12 17:35:54,257 - INFO - [✔] Registro con ID 8 actualizado en jobs.
+2025-03-12 17:35:54,259 - INFO - [✔] Registro con ID 9 actualizado en jobs.
+2025-03-12 17:35:54,262 - INFO - [✔] Registro con ID 10 actualizado en jobs.
+2025-03-12 17:35:54,265 - INFO - [✔] Registro con ID 11 actualizado en jobs.
+2025-03-12 17:35:54,266 - INFO - [✔] Registro con ID 12 actualizado en jobs.
+2025-03-12 17:35:54,268 - INFO - [✔] Registro con ID 13 actualizado en jobs.
+2025-03-12 17:35:54,269 - INFO - [✔] Registro con ID 14 actualizado en jobs.
+2025-03-12 17:35:54,271 - INFO - [✔] Registro con ID 15 actualizado en jobs.
+2025-03-12 17:35:54,274 - INFO - [✔] Registro con ID 16 actualizado en jobs.
+2025-03-12 17:35:54,277 - INFO - [✔] Registro con ID 17 actualizado en jobs.
+2025-03-12 17:35:54,279 - INFO - [✔] Registro con ID 18 actualizado en jobs.
+2025-03-12 17:35:54,281 - INFO - [✔] Registro con ID 19 actualizado en jobs.
+2025-03-12 17:35:54,283 - INFO - [✔] Registro con ID 20 actualizado en jobs.
+2025-03-12 17:35:54,284 - INFO - [✔] Registro con ID 21 actualizado en jobs.
+2025-03-12 17:35:54,286 - INFO - [✔] Registro con ID 22 actualizado en jobs.
+2025-03-12 17:35:54,287 - INFO - [✔] Registro con ID 23 actualizado en jobs.
+2025-03-12 17:35:54,289 - INFO - [✔] Registro con ID 24 actualizado en jobs.
+2025-03-12 17:35:54,292 - INFO - [✔] Registro con ID 25 actualizado en jobs.
+2025-03-12 17:35:54,295 - INFO - [✔] Registro con ID 26 actualizado en jobs.
+2025-03-12 17:35:54,298 - INFO - [✔] Registro con ID 27 actualizado en jobs.
+2025-03-12 17:35:54,299 - INFO - [✔] Registro con ID 28 actualizado en jobs.
+2025-03-12 17:35:54,301 - INFO - [✔] Registro con ID 29 actualizado en jobs.
+2025-03-12 17:35:54,303 - INFO - [✔] Registro con ID 30 actualizado en jobs.
+2025-03-12 17:35:54,306 - INFO - [✔] Registro con ID 31 actualizado en jobs.
+2025-03-12 17:35:54,309 - INFO - [✔] Registro con ID 32 actualizado en jobs.
+2025-03-12 17:35:54,312 - INFO - [✔] Registro con ID 33 actualizado en jobs.
+2025-03-12 17:35:54,314 - INFO - [✔] Registro con ID 34 actualizado en jobs.
+2025-03-12 17:35:54,316 - INFO - [✔] Registro con ID 35 actualizado en jobs.
+2025-03-12 17:35:54,318 - INFO - [✔] Registro con ID 36 actualizado en jobs.
+2025-03-12 17:35:54,320 - INFO - [✔] Registro con ID 37 actualizado en jobs.
+2025-03-12 17:35:54,322 - INFO - [✔] Registro con ID 38 actualizado en jobs.
+2025-03-12 17:35:54,324 - INFO - [✔] Registro con ID 39 actualizado en jobs.
+2025-03-12 17:35:54,327 - INFO - [✔] Registro con ID 40 actualizado en jobs.
+2025-03-12 17:35:54,330 - INFO - [✔] Registro con ID 41 actualizado en jobs.
+2025-03-12 17:35:54,332 - INFO - [✔] Registro con ID 42 actualizado en jobs.
+2025-03-12 17:35:54,333 - INFO - [✔] Registro con ID 43 actualizado en jobs.
+2025-03-12 17:35:54,335 - INFO - [✔] Registro con ID 44 actualizado en jobs.
+2025-03-12 17:35:54,337 - INFO - [✔] Registro con ID 45 actualizado en jobs.
+2025-03-12 17:35:54,338 - INFO - [✔] Registro con ID 46 actualizado en jobs.
+2025-03-12 17:35:54,340 - INFO - [✔] Registro con ID 47 actualizado en jobs.
+2025-03-12 17:35:54,343 - INFO - [✔] Registro con ID 48 actualizado en jobs.
+2025-03-12 17:35:54,346 - INFO - [✔] Registro con ID 49 actualizado en jobs.
+2025-03-12 17:35:54,348 - INFO - [✔] Registro con ID 50 actualizado en jobs.
+2025-03-12 17:35:54,349 - INFO - [✔] Registro con ID 51 actualizado en jobs.
+2025-03-12 17:35:54,351 - INFO - [✔] Registro con ID 52 actualizado en jobs.
+2025-03-12 17:35:54,353 - INFO - [✔] Registro con ID 53 actualizado en jobs.
+2025-03-12 17:35:54,354 - INFO - [✔] Registro con ID 54 actualizado en jobs.
+2025-03-12 17:35:54,357 - INFO - [✔] Registro con ID 55 actualizado en jobs.
+2025-03-12 17:35:54,359 - INFO - [✔] Registro con ID 56 actualizado en jobs.
+2025-03-12 17:35:54,361 - INFO - [✔] Registro con ID 57 actualizado en jobs.
+2025-03-12 17:35:54,363 - INFO - [✔] Registro con ID 58 actualizado en jobs.
+2025-03-12 17:35:54,365 - INFO - [✔] Registro con ID 59 actualizado en jobs.
+2025-03-12 17:35:54,367 - INFO - [✔] Registro con ID 60 actualizado en jobs.
+2025-03-12 17:35:54,369 - INFO - [✔] Registro con ID 61 actualizado en jobs.
+2025-03-12 17:35:54,371 - INFO - [✔] Registro con ID 62 actualizado en jobs.
+2025-03-12 17:35:54,372 - INFO - [✔] Registro con ID 63 actualizado en jobs.
+2025-03-12 17:35:54,375 - INFO - [✔] Registro con ID 64 actualizado en jobs.
+2025-03-12 17:35:54,377 - INFO - [✔] Registro con ID 65 actualizado en jobs.
+2025-03-12 17:35:54,379 - INFO - [✔] Registro con ID 66 actualizado en jobs.
+2025-03-12 17:35:54,381 - INFO - [✔] Registro con ID 67 actualizado en jobs.
+2025-03-12 17:35:54,383 - INFO - [✔] Registro con ID 68 actualizado en jobs.
+2025-03-12 17:35:54,385 - INFO - [✔] Registro con ID 69 actualizado en jobs.
+2025-03-12 17:35:54,386 - INFO - [✔] Registro con ID 70 actualizado en jobs.
+2025-03-12 17:35:54,389 - INFO - [✔] Registro con ID 71 actualizado en jobs.
+2025-03-12 17:35:54,391 - INFO - [✔] Registro con ID 72 actualizado en jobs.
+2025-03-12 17:35:54,395 - INFO - [✔] Registro con ID 73 actualizado en jobs.
+2025-03-12 17:35:54,397 - INFO - [✔] Registro con ID 74 actualizado en jobs.
+2025-03-12 17:35:54,399 - INFO - [✔] Registro con ID 75 actualizado en jobs.
+2025-03-12 17:35:54,401 - INFO - [✔] Registro con ID 76 actualizado en jobs.
+2025-03-12 17:35:54,403 - INFO - [✔] Registro con ID 77 actualizado en jobs.
+2025-03-12 17:35:54,405 - INFO - [✔] Registro con ID 78 actualizado en jobs.
+2025-03-12 17:35:54,410 - INFO - [✔] Registro con ID 79 actualizado en jobs.
+2025-03-12 17:35:54,413 - INFO - [✔] Registro con ID 80 actualizado en jobs.
+2025-03-12 17:35:54,416 - INFO - [✔] Registro con ID 81 actualizado en jobs.
+2025-03-12 17:35:54,418 - INFO - [✔] Registro con ID 82 actualizado en jobs.
+2025-03-12 17:35:54,421 - INFO - [✔] Registro con ID 83 actualizado en jobs.
+2025-03-12 17:35:54,423 - INFO - [✔] Registro con ID 84 actualizado en jobs.
+2025-03-12 17:35:54,427 - INFO - [✔] Registro con ID 85 actualizado en jobs.
+2025-03-12 17:35:54,430 - INFO - [✔] Registro con ID 86 actualizado en jobs.
+2025-03-12 17:35:54,432 - INFO - [✔] Registro con ID 87 actualizado en jobs.
+2025-03-12 17:35:54,434 - INFO - [✔] Registro con ID 88 actualizado en jobs.
+2025-03-12 17:35:54,437 - INFO - [✔] Registro con ID 89 actualizado en jobs.
+2025-03-12 17:35:54,440 - INFO - [✔] Registro con ID 90 actualizado en jobs.
+2025-03-12 17:35:54,444 - INFO - [✔] Registro con ID 91 actualizado en jobs.
+2025-03-12 17:35:54,448 - INFO - [✔] Registro con ID 92 actualizado en jobs.
+2025-03-12 17:35:54,451 - INFO - [✔] Registro con ID 93 actualizado en jobs.
+2025-03-12 17:35:54,453 - INFO - [✔] Registro con ID 94 actualizado en jobs.
+2025-03-12 17:35:54,456 - INFO - [✔] Registro con ID 95 actualizado en jobs.
+2025-03-12 17:35:54,459 - INFO - [✔] Registro con ID 96 actualizado en jobs.
+2025-03-12 17:35:54,462 - INFO - [✔] Registro con ID 97 actualizado en jobs.
+2025-03-12 17:35:54,464 - INFO - [✔] Registro con ID 98 actualizado en jobs.
+2025-03-12 17:35:54,466 - INFO - [✔] Registro con ID 99 actualizado en jobs.
+2025-03-12 17:35:54,468 - INFO - [✔] Registro con ID 100 actualizado en jobs.
+2025-03-12 17:35:54,469 - INFO - [✔] Registro con ID 101 actualizado en jobs.
+2025-03-12 17:35:54,471 - INFO - [✔] Registro con ID 102 actualizado en jobs.
+2025-03-12 17:35:54,474 - INFO - [✔] Registro con ID 103 actualizado en jobs.
+2025-03-12 17:35:54,477 - INFO - [✔] Registro con ID 104 actualizado en jobs.
+2025-03-12 17:35:54,480 - INFO - [✔] Registro con ID 105 actualizado en jobs.
+2025-03-12 17:35:54,482 - INFO - [✔] Registro con ID 106 actualizado en jobs.
+2025-03-12 17:35:54,484 - INFO - [✔] Registro con ID 107 actualizado en jobs.
+2025-03-12 17:35:54,486 - INFO - [✔] Registro con ID 108 actualizado en jobs.
+2025-03-12 17:35:54,488 - INFO - [✔] Registro con ID 109 actualizado en jobs.
+2025-03-12 17:35:54,490 - INFO - [✔] Registro con ID 110 actualizado en jobs.
+2025-03-12 17:35:54,494 - INFO - [✔] Registro con ID 111 actualizado en jobs.
+2025-03-12 17:35:54,496 - INFO - [✔] Registro con ID 112 actualizado en jobs.
+2025-03-12 17:35:54,499 - INFO - [✔] Registro con ID 113 actualizado en jobs.
+2025-03-12 17:35:54,501 - INFO - [✔] Registro con ID 114 actualizado en jobs.
+2025-03-12 17:35:54,503 - INFO - [✔] Registro con ID 115 actualizado en jobs.
+2025-03-12 17:35:54,505 - INFO - [✔] Registro con ID 116 actualizado en jobs.
+2025-03-12 17:35:54,508 - INFO - [✔] Registro con ID 117 actualizado en jobs.
+2025-03-12 17:35:54,510 - INFO - [✔] Registro con ID 118 actualizado en jobs.
+2025-03-12 17:35:54,513 - INFO - [✔] Registro con ID 119 actualizado en jobs.
+2025-03-12 17:35:54,515 - INFO - [✔] Registro con ID 120 actualizado en jobs.
+2025-03-12 17:35:54,517 - INFO - [✔] Registro con ID 121 actualizado en jobs.
+2025-03-12 17:35:54,519 - INFO - [✔] Registro con ID 122 actualizado en jobs.
+2025-03-12 17:35:54,521 - INFO - [✔] Registro con ID 123 actualizado en jobs.
+2025-03-12 17:35:54,524 - INFO - [✔] Registro con ID 124 actualizado en jobs.
+2025-03-12 17:35:54,526 - INFO - [✔] Registro con ID 125 actualizado en jobs.
+2025-03-12 17:35:54,534 - INFO - [✔] Registro con ID 126 actualizado en jobs.
+2025-03-12 17:35:54,570 - INFO - [✔] Registro con ID 127 actualizado en jobs.
+2025-03-12 17:35:54,589 - INFO - [✔] Registro con ID 128 actualizado en jobs.
+2025-03-12 17:35:54,596 - INFO - [✔] Registro con ID 129 actualizado en jobs.
+2025-03-12 17:35:54,599 - INFO - [✔] Registro con ID 130 actualizado en jobs.
+2025-03-12 17:35:54,601 - INFO - [✔] Registro con ID 131 actualizado en jobs.
+2025-03-12 17:35:54,604 - INFO - [✔] Registro con ID 132 actualizado en jobs.
+2025-03-12 17:35:54,620 - INFO - [✔] Registro con ID 133 actualizado en jobs.
+2025-03-12 17:35:54,622 - INFO - [✔] Registro con ID 134 actualizado en jobs.
+2025-03-12 17:35:54,627 - INFO - [✔] Registro con ID 135 actualizado en jobs.
+2025-03-12 17:35:54,630 - INFO - [✔] Registro con ID 136 actualizado en jobs.
+2025-03-12 17:35:54,632 - INFO - [✔] Registro con ID 137 actualizado en jobs.
+2025-03-12 17:35:54,635 - INFO - [✔] Registro con ID 138 actualizado en jobs.
+2025-03-12 17:35:54,637 - INFO - [✔] Registro con ID 139 actualizado en jobs.
+2025-03-12 17:35:54,640 - INFO - [✔] Registro con ID 140 actualizado en jobs.
+2025-03-12 17:35:54,644 - INFO - [✔] Registro con ID 141 actualizado en jobs.
+2025-03-12 17:35:54,647 - INFO - [✔] Registro con ID 142 actualizado en jobs.
+2025-03-12 17:35:54,650 - INFO - [✔] Registro con ID 143 actualizado en jobs.
+2025-03-12 17:35:54,653 - INFO - [✔] Registro con ID 144 actualizado en jobs.
+2025-03-12 17:35:54,655 - INFO - [✔] Registro con ID 145 actualizado en jobs.
+2025-03-12 17:35:54,660 - INFO - [✔] Registro con ID 146 actualizado en jobs.
+2025-03-12 17:35:54,662 - INFO - [✔] Registro con ID 147 actualizado en jobs.
+2025-03-12 17:35:54,664 - INFO - [✔] Registro con ID 148 actualizado en jobs.
+2025-03-12 17:35:54,668 - INFO - [✔] Registro con ID 149 actualizado en jobs.
+2025-03-12 17:35:54,670 - INFO - [✔] Registro con ID 150 actualizado en jobs.
+2025-03-12 17:35:54,675 - INFO - [✔] Registro con ID 151 actualizado en jobs.
+2025-03-12 17:35:54,678 - INFO - [✔] Registro con ID 152 actualizado en jobs.
+2025-03-12 17:35:54,680 - INFO - [✔] Registro con ID 153 actualizado en jobs.
+2025-03-12 17:35:54,682 - INFO - [✔] Registro con ID 154 actualizado en jobs.
+2025-03-12 17:35:54,685 - INFO - [✔] Registro con ID 155 actualizado en jobs.
+2025-03-12 17:35:54,688 - INFO - [✔] Registro con ID 156 actualizado en jobs.
+2025-03-12 17:35:54,692 - INFO - [✔] Registro con ID 157 actualizado en jobs.
+2025-03-12 17:35:54,694 - INFO - [✔] Registro con ID 158 actualizado en jobs.
+2025-03-12 17:35:54,697 - INFO - [✔] Registro con ID 159 actualizado en jobs.
+2025-03-12 17:35:54,700 - INFO - [✔] Registro con ID 160 actualizado en jobs.
+2025-03-12 17:35:54,702 - INFO - [✔] Registro con ID 161 actualizado en jobs.
+2025-03-12 17:35:54,704 - INFO - [✔] Registro con ID 162 actualizado en jobs.
+2025-03-12 17:35:54,707 - INFO - [✔] Registro con ID 163 actualizado en jobs.
+2025-03-12 17:35:54,711 - INFO - [✔] Registro con ID 164 actualizado en jobs.
+2025-03-12 17:35:54,713 - INFO - [✔] Registro con ID 165 actualizado en jobs.
+2025-03-12 17:35:54,716 - INFO - [✔] Registro con ID 166 actualizado en jobs.
+2025-03-12 17:35:54,718 - INFO - [✔] Registro con ID 167 actualizado en jobs.
+2025-03-12 17:35:54,720 - INFO - [✔] Registro con ID 168 actualizado en jobs.
+2025-03-12 17:35:54,721 - INFO - [✔] Registro con ID 169 actualizado en jobs.
+2025-03-12 17:35:54,726 - INFO - [✔] Registro con ID 170 actualizado en jobs.
+2025-03-12 17:35:54,729 - INFO - [✔] Registro con ID 171 actualizado en jobs.
+2025-03-12 17:35:54,731 - INFO - [✔] Registro con ID 172 actualizado en jobs.
+2025-03-12 17:35:54,733 - INFO - [✔] Registro con ID 173 actualizado en jobs.
+2025-03-12 17:35:54,736 - INFO - [✔] Registro con ID 174 actualizado en jobs.
+2025-03-12 17:35:54,738 - INFO - [✔] Registro con ID 175 actualizado en jobs.
+2025-03-12 17:35:54,742 - INFO - [✔] Registro con ID 176 actualizado en jobs.
+2025-03-12 17:35:54,745 - INFO - [✔] Registro con ID 177 actualizado en jobs.
+2025-03-12 17:35:54,748 - INFO - [✔] Registro con ID 178 actualizado en jobs.
+2025-03-12 17:35:54,751 - INFO - [✔] Registro con ID 179 actualizado en jobs.
+2025-03-12 17:35:54,754 - INFO - [✔] Registro con ID 180 actualizado en jobs.
+2025-03-12 17:35:54,756 - INFO - [✔] Registro con ID 181 actualizado en jobs.
+2025-03-12 17:35:54,761 - INFO - [✔] Registro con ID 182 actualizado en jobs.
+2025-03-12 17:35:54,763 - INFO - [✔] Registro con ID 183 actualizado en jobs.
+2025-03-12 17:35:54,764 - INFO - [✔] Registros duplicados en jobs han sido actualizados o insertados correctamente.
+2025-03-12 17:35:54,770 - ERROR - [ERROR] Formato de fecha incorrecto en 2021-05-30T05:43:46Z: invalid literal for int() with base 10: ''
+2025-03-12 17:35:54,771 - ERROR - [ERROR] Formato de fecha incorrecto: 2021-05-30T05:43:46Z
+2025-03-12 17:40:13,439 - INFO - 📂 Recibiendo archivos CSV...
+2025-03-12 17:40:13,446 - INFO - [✔] Archivos guardados en: {'departments': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\departments.csv', 'hired_employees': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\hired_employees.csv', 'jobs': 'C:\\Users\\Usuario\\Downloads\\Re_ PROCESO GLOBANT HR\\globant-data-engineering-challenge-gn\\uploads\\jobs.csv'}
+2025-03-12 17:40:13,452 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\departments.csv (12 filas)
+2025-03-12 17:40:13,464 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\hired_employees.csv (1999 filas)
+2025-03-12 17:40:13,468 - INFO - [✔] Archivo CSV cargado correctamente: C:\Users\Usuario\Downloads\Re_ PROCESO GLOBANT HR\globant-data-engineering-challenge-gn\uploads\jobs.csv (183 filas)
+2025-03-12 17:40:13,479 - WARNING - [⚠] Conflicto de ID detectado en departments. Intentando actualización...
+2025-03-12 17:40:13,484 - INFO - [✔] Registro con ID 1 actualizado en departments.
+2025-03-12 17:40:13,485 - INFO - [✔] Registro con ID 2 actualizado en departments.
+2025-03-12 17:40:13,487 - INFO - [✔] Registro con ID 3 actualizado en departments.
+2025-03-12 17:40:13,488 - INFO - [✔] Registro con ID 4 actualizado en departments.
+2025-03-12 17:40:13,489 - INFO - [✔] Registro con ID 5 actualizado en departments.
+2025-03-12 17:40:13,491 - INFO - [✔] Registro con ID 6 actualizado en departments.
+2025-03-12 17:40:13,493 - INFO - [✔] Registro con ID 7 actualizado en departments.
+2025-03-12 17:40:13,495 - INFO - [✔] Registro con ID 8 actualizado en departments.
+2025-03-12 17:40:13,497 - INFO - [✔] Registro con ID 9 actualizado en departments.
+2025-03-12 17:40:13,499 - INFO - [✔] Registro con ID 10 actualizado en departments.
+2025-03-12 17:40:13,500 - INFO - [✔] Registro con ID 11 actualizado en departments.
+2025-03-12 17:40:13,501 - INFO - [✔] Registro con ID 12 actualizado en departments.
+2025-03-12 17:40:13,502 - INFO - [✔] Registros duplicados en departments han sido actualizados o insertados correctamente.
+2025-03-12 17:40:13,515 - WARNING - [⚠] Conflicto de ID detectado en jobs. Intentando actualización...
+2025-03-12 17:40:13,517 - INFO - [✔] Registro con ID 1 actualizado en jobs.
+2025-03-12 17:40:13,519 - INFO - [✔] Registro con ID 2 actualizado en jobs.
+2025-03-12 17:40:13,520 - INFO - [✔] Registro con ID 3 actualizado en jobs.
+2025-03-12 17:40:13,522 - INFO - [✔] Registro con ID 4 actualizado en jobs.
+2025-03-12 17:40:13,524 - INFO - [✔] Registro con ID 5 actualizado en jobs.
+2025-03-12 17:40:13,525 - INFO - [✔] Registro con ID 6 actualizado en jobs.
+2025-03-12 17:40:13,527 - INFO - [✔] Registro con ID 7 actualizado en jobs.
+2025-03-12 17:40:13,530 - INFO - [✔] Registro con ID 8 actualizado en jobs.
+2025-03-12 17:40:13,532 - INFO - [✔] Registro con ID 9 actualizado en jobs.
+2025-03-12 17:40:13,533 - INFO - [✔] Registro con ID 10 actualizado en jobs.
+2025-03-12 17:40:13,535 - INFO - [✔] Registro con ID 11 actualizado en jobs.
+2025-03-12 17:40:13,536 - INFO - [✔] Registro con ID 12 actualizado en jobs.
+2025-03-12 17:40:13,537 - INFO - [✔] Registro con ID 13 actualizado en jobs.
+2025-03-12 17:40:13,539 - INFO - [✔] Registro con ID 14 actualizado en jobs.
+2025-03-12 17:40:13,540 - INFO - [✔] Registro con ID 15 actualizado en jobs.
+2025-03-12 17:40:13,542 - INFO - [✔] Registro con ID 16 actualizado en jobs.
+2025-03-12 17:40:13,544 - INFO - [✔] Registro con ID 17 actualizado en jobs.
+2025-03-12 17:40:13,546 - INFO - [✔] Registro con ID 18 actualizado en jobs.
+2025-03-12 17:40:13,549 - INFO - [✔] Registro con ID 19 actualizado en jobs.
+2025-03-12 17:40:13,550 - INFO - [✔] Registro con ID 20 actualizado en jobs.
+2025-03-12 17:40:13,551 - INFO - [✔] Registro con ID 21 actualizado en jobs.
+2025-03-12 17:40:13,553 - INFO - [✔] Registro con ID 22 actualizado en jobs.
+2025-03-12 17:40:13,555 - INFO - [✔] Registro con ID 23 actualizado en jobs.
+2025-03-12 17:40:13,558 - INFO - [✔] Registro con ID 24 actualizado en jobs.
+2025-03-12 17:40:13,560 - INFO - [✔] Registro con ID 25 actualizado en jobs.
+2025-03-12 17:40:13,563 - INFO - [✔] Registro con ID 26 actualizado en jobs.
+2025-03-12 17:40:13,565 - INFO - [✔] Registro con ID 27 actualizado en jobs.
+2025-03-12 17:40:13,567 - INFO - [✔] Registro con ID 28 actualizado en jobs.
+2025-03-12 17:40:13,569 - INFO - [✔] Registro con ID 29 actualizado en jobs.
+2025-03-12 17:40:13,571 - INFO - [✔] Registro con ID 30 actualizado en jobs.
+2025-03-12 17:40:13,573 - INFO - [✔] Registro con ID 31 actualizado en jobs.
+2025-03-12 17:40:13,575 - INFO - [✔] Registro con ID 32 actualizado en jobs.
+2025-03-12 17:40:13,578 - INFO - [✔] Registro con ID 33 actualizado en jobs.
+2025-03-12 17:40:13,580 - INFO - [✔] Registro con ID 34 actualizado en jobs.
+2025-03-12 17:40:13,582 - INFO - [✔] Registro con ID 35 actualizado en jobs.
+2025-03-12 17:40:13,585 - INFO - [✔] Registro con ID 36 actualizado en jobs.
+2025-03-12 17:40:13,585 - INFO - [✔] Registro con ID 37 actualizado en jobs.
+2025-03-12 17:40:13,587 - INFO - [✔] Registro con ID 38 actualizado en jobs.
+2025-03-12 17:40:13,589 - INFO - [✔] Registro con ID 39 actualizado en jobs.
+2025-03-12 17:40:13,592 - INFO - [✔] Registro con ID 40 actualizado en jobs.
+2025-03-12 17:40:13,594 - INFO - [✔] Registro con ID 41 actualizado en jobs.
+2025-03-12 17:40:13,597 - INFO - [✔] Registro con ID 42 actualizado en jobs.
+2025-03-12 17:40:13,599 - INFO - [✔] Registro con ID 43 actualizado en jobs.
+2025-03-12 17:40:13,600 - INFO - [✔] Registro con ID 44 actualizado en jobs.
+2025-03-12 17:40:13,602 - INFO - [✔] Registro con ID 45 actualizado en jobs.
+2025-03-12 17:40:13,604 - INFO - [✔] Registro con ID 46 actualizado en jobs.
+2025-03-12 17:40:13,605 - INFO - [✔] Registro con ID 47 actualizado en jobs.
+2025-03-12 17:40:13,607 - INFO - [✔] Registro con ID 48 actualizado en jobs.
+2025-03-12 17:40:13,610 - INFO - [✔] Registro con ID 49 actualizado en jobs.
+2025-03-12 17:40:13,613 - INFO - [✔] Registro con ID 50 actualizado en jobs.
+2025-03-12 17:40:13,615 - INFO - [✔] Registro con ID 51 actualizado en jobs.
+2025-03-12 17:40:13,616 - INFO - [✔] Registro con ID 52 actualizado en jobs.
+2025-03-12 17:40:13,618 - INFO - [✔] Registro con ID 53 actualizado en jobs.
+2025-03-12 17:40:13,620 - INFO - [✔] Registro con ID 54 actualizado en jobs.
+2025-03-12 17:40:13,621 - INFO - [✔] Registro con ID 55 actualizado en jobs.
+2025-03-12 17:40:13,623 - INFO - [✔] Registro con ID 56 actualizado en jobs.
+2025-03-12 17:40:13,625 - INFO - [✔] Registro con ID 57 actualizado en jobs.
+2025-03-12 17:40:13,628 - INFO - [✔] Registro con ID 58 actualizado en jobs.
+2025-03-12 17:40:13,630 - INFO - [✔] Registro con ID 59 actualizado en jobs.
+2025-03-12 17:40:13,633 - INFO - [✔] Registro con ID 60 actualizado en jobs.
+2025-03-12 17:40:13,635 - INFO - [✔] Registro con ID 61 actualizado en jobs.
+2025-03-12 17:40:13,637 - INFO - [✔] Registro con ID 62 actualizado en jobs.
+2025-03-12 17:40:13,639 - INFO - [✔] Registro con ID 63 actualizado en jobs.
+2025-03-12 17:40:13,640 - INFO - [✔] Registro con ID 64 actualizado en jobs.
+2025-03-12 17:40:13,641 - INFO - [✔] Registro con ID 65 actualizado en jobs.
+2025-03-12 17:40:13,644 - INFO - [✔] Registro con ID 66 actualizado en jobs.
+2025-03-12 17:40:13,648 - INFO - [✔] Registro con ID 67 actualizado en jobs.
+2025-03-12 17:40:13,650 - INFO - [✔] Registro con ID 68 actualizado en jobs.
+2025-03-12 17:40:13,652 - INFO - [✔] Registro con ID 69 actualizado en jobs.
+2025-03-12 17:40:13,654 - INFO - [✔] Registro con ID 70 actualizado en jobs.
+2025-03-12 17:40:13,655 - INFO - [✔] Registro con ID 71 actualizado en jobs.
+2025-03-12 17:40:13,656 - INFO - [✔] Registro con ID 72 actualizado en jobs.
+2025-03-12 17:40:13,657 - INFO - [✔] Registro con ID 73 actualizado en jobs.
+2025-03-12 17:40:13,658 - INFO - [✔] Registro con ID 74 actualizado en jobs.
+2025-03-12 17:40:13,661 - INFO - [✔] Registro con ID 75 actualizado en jobs.
+2025-03-12 17:40:13,664 - INFO - [✔] Registro con ID 76 actualizado en jobs.
+2025-03-12 17:40:13,665 - INFO - [✔] Registro con ID 77 actualizado en jobs.
+2025-03-12 17:40:13,666 - INFO - [✔] Registro con ID 78 actualizado en jobs.
+2025-03-12 17:40:13,668 - INFO - [✔] Registro con ID 79 actualizado en jobs.
+2025-03-12 17:40:13,669 - INFO - [✔] Registro con ID 80 actualizado en jobs.
+2025-03-12 17:40:13,670 - INFO - [✔] Registro con ID 81 actualizado en jobs.
+2025-03-12 17:40:13,671 - INFO - [✔] Registro con ID 82 actualizado en jobs.
+2025-03-12 17:40:13,672 - INFO - [✔] Registro con ID 83 actualizado en jobs.
+2025-03-12 17:40:13,674 - INFO - [✔] Registro con ID 84 actualizado en jobs.
+2025-03-12 17:40:13,676 - INFO - [✔] Registro con ID 85 actualizado en jobs.
+2025-03-12 17:40:13,679 - INFO - [✔] Registro con ID 86 actualizado en jobs.
+2025-03-12 17:40:13,682 - INFO - [✔] Registro con ID 87 actualizado en jobs.
+2025-03-12 17:40:13,684 - INFO - [✔] Registro con ID 88 actualizado en jobs.
+2025-03-12 17:40:13,686 - INFO - [✔] Registro con ID 89 actualizado en jobs.
+2025-03-12 17:40:13,688 - INFO - [✔] Registro con ID 90 actualizado en jobs.
+2025-03-12 17:40:13,689 - INFO - [✔] Registro con ID 91 actualizado en jobs.
+2025-03-12 17:40:13,690 - INFO - [✔] Registro con ID 92 actualizado en jobs.
+2025-03-12 17:40:13,692 - INFO - [✔] Registro con ID 93 actualizado en jobs.
+2025-03-12 17:40:13,695 - INFO - [✔] Registro con ID 94 actualizado en jobs.
+2025-03-12 17:40:13,698 - INFO - [✔] Registro con ID 95 actualizado en jobs.
+2025-03-12 17:40:13,700 - INFO - [✔] Registro con ID 96 actualizado en jobs.
+2025-03-12 17:40:13,701 - INFO - [✔] Registro con ID 97 actualizado en jobs.
+2025-03-12 17:40:13,703 - INFO - [✔] Registro con ID 98 actualizado en jobs.
+2025-03-12 17:40:13,704 - INFO - [✔] Registro con ID 99 actualizado en jobs.
+2025-03-12 17:40:13,705 - INFO - [✔] Registro con ID 100 actualizado en jobs.
+2025-03-12 17:40:13,706 - INFO - [✔] Registro con ID 101 actualizado en jobs.
+2025-03-12 17:40:13,708 - INFO - [✔] Registro con ID 102 actualizado en jobs.
+2025-03-12 17:40:13,711 - INFO - [✔] Registro con ID 103 actualizado en jobs.
+2025-03-12 17:40:13,714 - INFO - [✔] Registro con ID 104 actualizado en jobs.
+2025-03-12 17:40:13,716 - INFO - [✔] Registro con ID 105 actualizado en jobs.
+2025-03-12 17:40:13,717 - INFO - [✔] Registro con ID 106 actualizado en jobs.
+2025-03-12 17:40:13,718 - INFO - [✔] Registro con ID 107 actualizado en jobs.
+2025-03-12 17:40:13,720 - INFO - [✔] Registro con ID 108 actualizado en jobs.
+2025-03-12 17:40:13,722 - INFO - [✔] Registro con ID 109 actualizado en jobs.
+2025-03-12 17:40:13,723 - INFO - [✔] Registro con ID 110 actualizado en jobs.
+2025-03-12 17:40:13,724 - INFO - [✔] Registro con ID 111 actualizado en jobs.
+2025-03-12 17:40:13,726 - INFO - [✔] Registro con ID 112 actualizado en jobs.
+2025-03-12 17:40:13,728 - INFO - [✔] Registro con ID 113 actualizado en jobs.
+2025-03-12 17:40:13,731 - INFO - [✔] Registro con ID 114 actualizado en jobs.
+2025-03-12 17:40:13,732 - INFO - [✔] Registro con ID 115 actualizado en jobs.
+2025-03-12 17:40:13,734 - INFO - [✔] Registro con ID 116 actualizado en jobs.
+2025-03-12 17:40:13,736 - INFO - [✔] Registro con ID 117 actualizado en jobs.
+2025-03-12 17:40:13,738 - INFO - [✔] Registro con ID 118 actualizado en jobs.
+2025-03-12 17:40:13,739 - INFO - [✔] Registro con ID 119 actualizado en jobs.
+2025-03-12 17:40:13,741 - INFO - [✔] Registro con ID 120 actualizado en jobs.
+2025-03-12 17:40:13,743 - INFO - [✔] Registro con ID 121 actualizado en jobs.
+2025-03-12 17:40:13,752 - INFO - [✔] Registro con ID 122 actualizado en jobs.
+2025-03-12 17:40:13,763 - INFO - [✔] Registro con ID 123 actualizado en jobs.
+2025-03-12 17:40:13,790 - INFO - [✔] Registro con ID 124 actualizado en jobs.
+2025-03-12 17:40:13,792 - INFO - [✔] Registro con ID 125 actualizado en jobs.
+2025-03-12 17:40:13,794 - INFO - [✔] Registro con ID 126 actualizado en jobs.
+2025-03-12 17:40:13,796 - INFO - [✔] Registro con ID 127 actualizado en jobs.
+2025-03-12 17:40:13,798 - INFO - [✔] Registro con ID 128 actualizado en jobs.
+2025-03-12 17:40:13,811 - INFO - [✔] Registro con ID 129 actualizado en jobs.
+2025-03-12 17:40:13,813 - INFO - [✔] Registro con ID 130 actualizado en jobs.
+2025-03-12 17:40:13,816 - INFO - [✔] Registro con ID 131 actualizado en jobs.
+2025-03-12 17:40:13,817 - INFO - [✔] Registro con ID 132 actualizado en jobs.
+2025-03-12 17:40:13,818 - INFO - [✔] Registro con ID 133 actualizado en jobs.
+2025-03-12 17:40:13,820 - INFO - [✔] Registro con ID 134 actualizado en jobs.
+2025-03-12 17:40:13,821 - INFO - [✔] Registro con ID 135 actualizado en jobs.
+2025-03-12 17:40:13,822 - INFO - [✔] Registro con ID 136 actualizado en jobs.
+2025-03-12 17:40:13,823 - INFO - [✔] Registro con ID 137 actualizado en jobs.
+2025-03-12 17:40:13,824 - INFO - [✔] Registro con ID 138 actualizado en jobs.
+2025-03-12 17:40:13,826 - INFO - [✔] Registro con ID 139 actualizado en jobs.
+2025-03-12 17:40:13,829 - INFO - [✔] Registro con ID 140 actualizado en jobs.
+2025-03-12 17:40:13,831 - INFO - [✔] Registro con ID 141 actualizado en jobs.
+2025-03-12 17:40:13,832 - INFO - [✔] Registro con ID 142 actualizado en jobs.
+2025-03-12 17:40:13,833 - INFO - [✔] Registro con ID 143 actualizado en jobs.
+2025-03-12 17:40:13,835 - INFO - [✔] Registro con ID 144 actualizado en jobs.
+2025-03-12 17:40:13,836 - INFO - [✔] Registro con ID 145 actualizado en jobs.
+2025-03-12 17:40:13,837 - INFO - [✔] Registro con ID 146 actualizado en jobs.
+2025-03-12 17:40:13,838 - INFO - [✔] Registro con ID 147 actualizado en jobs.
+2025-03-12 17:40:13,839 - INFO - [✔] Registro con ID 148 actualizado en jobs.
+2025-03-12 17:40:13,840 - INFO - [✔] Registro con ID 149 actualizado en jobs.
+2025-03-12 17:40:13,842 - INFO - [✔] Registro con ID 150 actualizado en jobs.
+2025-03-12 17:40:13,845 - INFO - [✔] Registro con ID 151 actualizado en jobs.
+2025-03-12 17:40:13,847 - INFO - [✔] Registro con ID 152 actualizado en jobs.
+2025-03-12 17:40:13,848 - INFO - [✔] Registro con ID 153 actualizado en jobs.
+2025-03-12 17:40:13,850 - INFO - [✔] Registro con ID 154 actualizado en jobs.
+2025-03-12 17:40:13,851 - INFO - [✔] Registro con ID 155 actualizado en jobs.
+2025-03-12 17:40:13,852 - INFO - [✔] Registro con ID 156 actualizado en jobs.
+2025-03-12 17:40:13,854 - INFO - [✔] Registro con ID 157 actualizado en jobs.
+2025-03-12 17:40:13,855 - INFO - [✔] Registro con ID 158 actualizado en jobs.
+2025-03-12 17:40:13,856 - INFO - [✔] Registro con ID 159 actualizado en jobs.
+2025-03-12 17:40:13,857 - INFO - [✔] Registro con ID 160 actualizado en jobs.
+2025-03-12 17:40:13,859 - INFO - [✔] Registro con ID 161 actualizado en jobs.
+2025-03-12 17:40:13,862 - INFO - [✔] Registro con ID 162 actualizado en jobs.
+2025-03-12 17:40:13,864 - INFO - [✔] Registro con ID 163 actualizado en jobs.
+2025-03-12 17:40:13,865 - INFO - [✔] Registro con ID 164 actualizado en jobs.
+2025-03-12 17:40:13,867 - INFO - [✔] Registro con ID 165 actualizado en jobs.
+2025-03-12 17:40:13,868 - INFO - [✔] Registro con ID 166 actualizado en jobs.
+2025-03-12 17:40:13,869 - INFO - [✔] Registro con ID 167 actualizado en jobs.
+2025-03-12 17:40:13,871 - INFO - [✔] Registro con ID 168 actualizado en jobs.
+2025-03-12 17:40:13,872 - INFO - [✔] Registro con ID 169 actualizado en jobs.
+2025-03-12 17:40:13,873 - INFO - [✔] Registro con ID 170 actualizado en jobs.
+2025-03-12 17:40:13,875 - INFO - [✔] Registro con ID 171 actualizado en jobs.
+2025-03-12 17:40:13,878 - INFO - [✔] Registro con ID 172 actualizado en jobs.
+2025-03-12 17:40:13,881 - INFO - [✔] Registro con ID 173 actualizado en jobs.
+2025-03-12 17:40:13,883 - INFO - [✔] Registro con ID 174 actualizado en jobs.
+2025-03-12 17:40:13,885 - INFO - [✔] Registro con ID 175 actualizado en jobs.
+2025-03-12 17:40:13,887 - INFO - [✔] Registro con ID 176 actualizado en jobs.
+2025-03-12 17:40:13,889 - INFO - [✔] Registro con ID 177 actualizado en jobs.
+2025-03-12 17:40:13,891 - INFO - [✔] Registro con ID 178 actualizado en jobs.
+2025-03-12 17:40:13,893 - INFO - [✔] Registro con ID 179 actualizado en jobs.
+2025-03-12 17:40:13,897 - INFO - [✔] Registro con ID 180 actualizado en jobs.
+2025-03-12 17:40:13,899 - INFO - [✔] Registro con ID 181 actualizado en jobs.
+2025-03-12 17:40:13,901 - INFO - [✔] Registro con ID 182 actualizado en jobs.
+2025-03-12 17:40:13,902 - INFO - [✔] Registro con ID 183 actualizado en jobs.
+2025-03-12 17:40:13,903 - INFO - [✔] Registros duplicados en jobs han sido actualizados o insertados correctamente.
+2025-03-12 17:40:13,907 - ERROR - [ERROR] Formato de fecha incorrecto en 2021-05-30T05:43:46Z: invalid literal for int() with base 10: ''
+2025-03-12 17:40:13,908 - ERROR - [ERROR] Formato de fecha incorrecto: 2021-05-30T05:43:46Z
