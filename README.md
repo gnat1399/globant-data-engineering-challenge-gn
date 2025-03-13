@@ -50,41 +50,42 @@ Este proyecto cumple con el reto de Data Engineering que consiste en:
 Para instalar las dependencias, ejecuta:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt 
+```
 
-Cómo Ejecutar el Proyecto
-Clonar este repositorio:
-bash
-Copiar
-git clone https://github.com/gnat1399/globant-data-engineering-challenge-gn.git
-cd globant-data-engineering-challenge-gn
-Instalar las dependencias:
-bash
-Copiar
+## Cómo Ejecutar el Proyecto
+
+- **Clonar este repositorio**  
+  ```bash
+  git clone https://github.com/gnat1399/globant-data-engineering-challenge-gn.git
+  cd globant-data-engineering-challenge-gn
+
+- **Instalar las dependencias**
+
+```bash
 pip install -r requirements.txt
-Ejecutar la aplicación Flask:
-bash
-Copiar
+Ejecutar la aplicación Flask
+```
+```bash
 python app.py
-Verás un mensaje en la consola, por ejemplo:
-Iniciando servidor Flask en http://127.0.0.1:5000/
+```
+Verás un mensaje en la consola, por ejemplo: Iniciando servidor Flask en http://127.0.0.1:5000/
 
-Probar los endpoints principales:
-Subir archivos CSV:
+- **Probar los endpoints principales**
+
+Subir archivos CSV
 POST /upload_csv
 En el form-data, envía los archivos:
-
 file_departments (CSV de departamentos)
 file_hired_employees (CSV de empleados contratados)
 file_jobs (CSV de puestos)
-Reporte 1:
-GET /report/quarterly-hired
-Devuelve la cantidad de empleados contratados en 2021 por departamento y trabajo, dividido por trimestres.
 
-Reporte 2:
+Reporte 1
+GET /report/quarterly-hired
+Devuelve la cantidad de empleados contratados en 2021 por departamento y trabajo, dividido por trimestres (Q1, Q2, Q3, Q4).
+Reporte 2
 GET /report/departments-above-average
 Devuelve los departamentos que contrataron más empleados que el promedio de todos los departamentos en 2021.
-
 Flujo de Ejecución
 Cargar CSV
 El endpoint POST /upload_csv recibe los archivos y los guarda localmente en la carpeta configurada (UPLOAD_FOLDER).
