@@ -80,10 +80,10 @@ file_departments (CSV de departamentos)
 file_hired_employees (CSV de empleados contratados)
 file_jobs (CSV de puestos)
 
-Reporte 1
+-Reporte 1
 GET /report/quarterly-hired
 Devuelve la cantidad de empleados contratados en 2021 por departamento y trabajo, dividido por trimestres (Q1, Q2, Q3, Q4).
-Reporte 2
+-Reporte 2
 GET /report/departments-above-average
 Devuelve los departamentos que contrataron más empleados que el promedio de todos los departamentos en 2021.
 Flujo de Ejecución
