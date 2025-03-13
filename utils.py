@@ -23,7 +23,7 @@ def setup_logging(level='INFO', log_file='migration.log'):
 
 def load_csv(file_path, log, column_names=None, date_columns=None):
     """
-    Carga un archivo CSV 
+    Carga de archivo 
     """
     try:
         df = pd.read_csv(file_path, header=None, encoding='utf-8')
@@ -45,7 +45,7 @@ def load_csv(file_path, log, column_names=None, date_columns=None):
             for col in date_columns:
                 if col in df.columns:
                     df[col] = df[col].astype(str).str.strip(" ,")
-                    log.info(f"Valores únicos en '{col}' tras limpiar: {df[col].unique()}")
+                    log.info(f"Valores unicos en '{col}' tras limpiar: {df[col].unique()}")
                     df[col] = df[col].apply(lambda x: convert_date(x, col))
                     df[col] = df[col].apply(
                         lambda d: d.strftime('%Y-%m-%d %H:%M:%S') if d is not None and pd.notnull(d) else None

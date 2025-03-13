@@ -15,5 +15,5 @@ Session = sessionmaker(bind=engine)
 from models import Department, Job, HiredEmployee
 from database import engine
 
-# Crear las tablas
+# Crear tablas
 Base.metadata.create_all(engine)

@@ -10,6 +10,6 @@ def check_tables(db_path='migration.db'):
 
 if __name__ == "__main__":
     tablas = check_tables()
-    print("Tablas encontradas en la base de datos:")
+    print("Tablas encontradas:")
     for t in tablas:
         print(t[0])
