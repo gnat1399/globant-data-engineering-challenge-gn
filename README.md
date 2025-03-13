@@ -73,31 +73,41 @@ Verás un mensaje en la consola, por ejemplo: Iniciando servidor Flask en http:/
 
 - **Probar los endpoints principales**
 
-Subir archivos CSV
-POST /upload_csv
-En el form-data, envía los archivos:
-file_departments (CSV de departamentos)
-file_hired_employees (CSV de empleados contratados)
-file_jobs (CSV de puestos)
+## Subir archivos CSV
 
--Reporte 1
-GET /report/quarterly-hired
+**POST /upload_csv**  
+En el `form-data`, envía los archivos:
+
+- `file_departments` (CSV de departamentos)  
+- `file_hired_employees` (CSV de empleados contratados)  
+- `file_jobs` (CSV de puestos)
+
+---
+
+### Reporte 1
+
+**GET /report/quarterly-hired**  
 Devuelve la cantidad de empleados contratados en 2021 por departamento y trabajo, dividido por trimestres (Q1, Q2, Q3, Q4).
--Reporte 2
-GET /report/departments-above-average
+
+### Reporte 2
+
+**GET /report/departments-above-average**  
 Devuelve los departamentos que contrataron más empleados que el promedio de todos los departamentos en 2021.
-Flujo de Ejecución
-Cargar CSV
-El endpoint POST /upload_csv recibe los archivos y los guarda localmente en la carpeta configurada (UPLOAD_FOLDER).
 
-Procesamiento con pandas
-En utils.py, la función load_csv lee el CSV, aplica limpieza de datos y lo convierte en un DataFrame.
+---
 
-Inserción en la base de datos
+## Flujo de Ejecución
 
-Se revisan duplicados con insert_batch, y en caso de conflicto de ID, se actualiza o se inserta.
-Para la tabla hired_employees, se parsean las fechas con el formato ISO (YYYY-MM-DDTHH:MM:SSZ). Si alguna fecha es inválida, se ignora esa fila (ver lógica en app.py).
-Consultas / Reportes
+1. **Cargar CSV**  
+   El endpoint `POST /upload_csv` recibe los archivos y los guarda localmente en la carpeta configurada (`UPLOAD_FOLDER`).
 
-/report/quarterly-hired: Extrae el trimestre con extract('month', ...) y agrupa por departamento/trabajo.
-/report/departments-above-average: Calcula el promedio de contrataciones y filtra los departamentos que superan ese promedio.
+2. **Procesamiento con pandas**  
+   En `utils.py`, la función `load_csv` lee el CSV, aplica limpieza de datos y lo convierte en un DataFrame.
+
+3. **Inserción en la base de datos**  
+   - Se revisan duplicados con `insert_batch`, y en caso de conflicto de ID, se actualiza o se inserta.
+   - Para la tabla `hired_employees`, se parsean las fechas con el formato ISO (`YYYY-MM-DDTHH:MM:SSZ`). Si alguna fecha es inválida, se ignora esa fila (ver lógica en `app.py`).
+
+4. **Consultas / Reportes**  
+   - **`/report/quarterly-hired`**: Extrae el trimestre con `extract('month', ...)` y agrupa por departamento/trabajo.  
+   - **`/report/departments-above-average`**: Calcula el promedio de contrataciones y filtra los departamentos que superan ese promedio.
