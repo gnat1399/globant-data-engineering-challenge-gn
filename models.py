@@ -19,9 +19,9 @@ class HiredEmployee(db.Model):
     __tablename__ = 'hired_employees'
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(255), nullable=False)
-    hire_datetime = db.Column(db.DateTime, nullable=False)  # Guardar como DateTime
+    hire_datetime = db.Column(db.DateTime, nullable=False) 
     department_id = db.Column(db.Integer, db.ForeignKey('departments.id'), nullable=False)
-    job_id = db.Column(db.Integer, db.ForeignKey('jobs.id'), nullable=True)  # Permitimos nulos en job_id
+    job_id = db.Column(db.Integer, db.ForeignKey('jobs.id'), nullable=True)  
 
     department = db.relationship('Department', backref=db.backref('employees', lazy=True))
     job = db.relationship('Job', backref=db.backref('employees', lazy=True))

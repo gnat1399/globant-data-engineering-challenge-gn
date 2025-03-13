@@ -13,7 +13,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 db.init_app(app)
 
-# Configurar logging sin emojis para evitar errores en Windows
+# Configurar logging
 log = setup_logging(LOGGING_LEVEL, LOGGING_FILE)
 
 with app.app_context():
@@ -21,12 +21,12 @@ with app.app_context():
 
 @app.route('/')
 def home():
-    return "¡El servidor Flask está funcionando correctamente!"
+    return "Flask está funcionando"
 
 @app.route('/upload_csv', methods=['POST'])
 def upload_csv():
     try:
-        log.info("📂 Recibiendo archivos CSV...")
+        log.info("Recibiendo archivos CSV")
 
         # Obtener archivos
         file_departments = request.files.get('file_departments')
@@ -34,7 +34,7 @@ def upload_csv():
         file_jobs = request.files.get('file_jobs')
 
         if not file_departments or not file_hired_employees or not file_jobs:
-            log.error('[ERROR] Faltan archivos en la solicitud.')
+            log.error('Faltan archivos en la solicitud.')
             return jsonify({"error": "Faltan archivos en la solicitud"}), 400
 
         # Guardar archivos CSV
@@ -48,40 +48,39 @@ def upload_csv():
         file_hired_employees.save(file_paths["hired_employees"])
         file_jobs.save(file_paths["jobs"])
 
-        log.info(f"[✔] Archivos guardados en: {file_paths}")
+        log.info(f"Archivos guardados en: {file_paths}")
 
-        # Procesar archivos CSV con nombres de columna definidos
+        # Procesar archivos CSV
         df_departments = load_csv(file_paths["departments"], log, ["id", "department"])
         df_hired_employees = load_csv(file_paths["hired_employees"], log, ["id", "name", "datetime", "department_id", "job_id"])
         df_jobs = load_csv(file_paths["jobs"], log, ["id", "job"])
 
         if df_departments is None or df_hired_employees is None or df_jobs is None:
-            return jsonify({"error": "Error al procesar uno o más archivos CSV"}), 500
+            return jsonify({"error": "Error al procesar"}), 500
 
         insert_data(df_departments, df_hired_employees, df_jobs)
 
-        return jsonify({"message": "Datos insertados correctamente"}), 200
+        return jsonify({"message": "Datos insertados"}), 200
 
     except Exception as e:
-        log.error(f"[ERROR] {str(e)}")
+        log.error(f"ERROR {str(e)}")
         return jsonify({"error": str(e)}), 500
 
 def insert_data(df_departments, df_hired_employees, df_jobs):
-    """ Inserta los datos en la base de datos en lotes """
-    # 1) Insertar departamentos
+    """ Inserta los datos en la base de datos mediante lotes """
+    # Insertar Department
     data_departments = [{"id": int(row['id']), "department": row['department']} for _, row in df_departments.iterrows()]
     insert_batch(Department, data_departments, db.session, log)
 
-    # 2) Insertar jobs
+    # Insertar jobs
     data_jobs = [{"id": int(row['id']), "job": row['job']} for _, row in df_jobs.iterrows()]
     insert_batch(Job, data_jobs, db.session, log)
 
-    # 3) Insertar hired_employees
+    # Insertar hired_employees
     data_hired_employees = []
     for _, row in df_hired_employees.iterrows():
-        try:
-            # Ajusta el formato a tu caso real: 
-            # Este formato '%Y-%m-%dT%H:%M:%SZ' maneja '2021-05-30T05:43:46Z'
+        try: 
+            # Se ajusta el  formato '%Y-%m-%dT%H:%M:%SZ' para '2021-05-30T05:43:46Z'
             hire_date = datetime.strptime(row['datetime'], "%Y-%m-%dT%H:%M:%SZ")
 
             data_hired_employees.append({
@@ -93,16 +92,16 @@ def insert_data(df_departments, df_hired_employees, df_jobs):
             })
 
         except ValueError as e:
-            # En lugar de detener el proceso, logeamos y continuamos
-            log.error(f"[ERROR] Formato de fecha incorrecto en {row['datetime']}: {str(e)}")
-            log.error("[INFO] Se ignora esta fila y se continúa con el resto.")
-            continue  # Saltar a la siguiente fila
+            # En caso haya error continua con el siguiente
+            log.error(f"Formato de fecha incorrecto en {row['datetime']}: {str(e)}")
+            log.error("Se ignora esta fila y se continúa con el resto.")
+            continue 
 
-    # Inserción por lotes de los empleados
+    # Inserción
     insert_batch(HiredEmployee, data_hired_employees, db.session, log)
 
 # --------------------------------------------------------------------------
-# NUEVA SECCIÓN: ENDPOINTS PARA REQUISITOS DE LA SECCIÓN 2
+# SECCIÓN 2
 # --------------------------------------------------------------------------
 
 @app.route('/report/quarterly-hired', methods=['GET'])
