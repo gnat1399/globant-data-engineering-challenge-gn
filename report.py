@@ -96,7 +96,7 @@ def report_departments_above_average(conn):
 
 def main():
     # Ajusta la ruta de tu base de datos
-    conn = sqlite3.connect('migracion.db')
+    conn = sqlite3.connect('migration.db')
 
     # Ejecutar reporte 1
     report_quarterly_hired(conn)

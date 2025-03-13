@@ -1,6 +1,6 @@
 import sqlite3
 
-def check_tables(db_path='migracion.db'):
+def check_tables(db_path='migration.db'):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     cursor.execute("SELECT name FROM sqlite_master WHERE type='table'")
