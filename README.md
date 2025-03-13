@@ -111,3 +111,5 @@ Devuelve los departamentos que contrataron más empleados que el promedio de tod
 4. **Consultas / Reportes**  
    - **`/report/quarterly-hired`**: Extrae el trimestre con `extract('month', ...)` y agrupa por departamento/trabajo.  
    - **`/report/departments-above-average`**: Calcula el promedio de contrataciones y filtra los departamentos que superan ese promedio.
+
+“El archivo migration.db no se sube al repositorio (está en .gitignore). Cada desarrollador puede generarlo localmente al correr python app.py, que ejecuta db.create_all() y crea las tablas necesarias.”
