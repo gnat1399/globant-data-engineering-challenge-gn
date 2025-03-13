@@ -24,6 +24,10 @@ def setup_logging(level='INFO', log_file='migration.log'):
 def load_csv(file_path, log, column_names=None, date_columns=None):
     """
     Carga un archivo CSV y lo devuelve como un DataFrame con las fechas convertidas.
+    Si ocurre error en la conversión de alguna fecha, se asigna None a esa celda,
+    pero NO se descarta la fila. La lógica de ignorar filas defectuosas puede
+    manejarse posteriormente (por ejemplo, en app.py).
+    
     :param file_path: Ruta del archivo CSV.
     :param log: Objeto de logging.
     :param column_names: Lista opcional de nombres de columna.
@@ -36,13 +40,35 @@ def load_csv(file_path, log, column_names=None, date_columns=None):
             df.columns = column_names
         
         if date_columns:
+            # Función auxiliar para convertir cada valor de fecha
+            def convert_date(x, col):
+                s = str(x).strip(" ,")
+                if s == "":
+                    return None  # No se puede parsear
+                try:
+                    # Ajustar formato según tu CSV (por ejemplo '%Y-%m-%dT%H:%M:%SZ')
+                    return pd.to_datetime(s, format='%Y-%m-%dT%H:%M:%SZ', errors='raise')
+                except Exception as e:
+                    log.error(f"Error converting value in column '{col}': '{s}' -> {e}")
+                    return None
+
             for col in date_columns:
                 if col in df.columns:
-                    df[col] = pd.to_datetime(df[col], errors='coerce')
-                    df[col] = df[col].apply(lambda x: x.strftime('%Y-%m-%d %H:%M:%S') if pd.notnull(x) else None)
+                    # Convertir a string y limpiar espacios y comas
+                    df[col] = df[col].astype(str).str.strip(" ,")
+                    log.info(f"Valores únicos en '{col}' tras limpiar: {df[col].unique()}")
+                    # Aplicar la conversión individualmente
+                    df[col] = df[col].apply(lambda x: convert_date(x, col))
+                    # Convertir la fecha a string con formato estándar (YYYY-MM-DD HH:MM:SS)
+                    # Si es None, se quedará como None
+                    df[col] = df[col].apply(
+                        lambda d: d.strftime('%Y-%m-%d %H:%M:%S') if d is not None and pd.notnull(d) else None
+                    )
         
-        df.dropna(how='all', inplace=True)  # Eliminar filas completamente vacías
-        df.fillna(value="", inplace=True)  # Reemplaza NaN con cadena vacía
+        # Eliminar filas completamente vacías
+        df.dropna(how='all', inplace=True)
+        # Reemplaza NaN con cadena vacía
+        df.fillna(value="", inplace=True)
         
         log.info(f"[✔] Archivo CSV cargado correctamente: {file_path} ({len(df)} filas)")
         return df
@@ -61,6 +87,7 @@ def load_csv(file_path, log, column_names=None, date_columns=None):
 def insert_batch(model, data, db_session, log):
     """
     Inserta registros en la base de datos y maneja IDs duplicados.
+    Después de la inserción, consulta y muestra los registros insertados.
     :param model: Modelo SQLAlchemy.
     :param data: Lista de diccionarios con datos a insertar.
     :param db_session: Sesión SQLAlchemy.
@@ -74,6 +101,15 @@ def insert_batch(model, data, db_session, log):
         db_session.bulk_insert_mappings(model, data)
         db_session.commit()
         log.info(f"[✔] {len(data)} registros insertados en {model.__tablename__}")
+        
+        # Consulta para verificar los registros insertados
+        registros = db_session.query(model).all()
+        log.info(f"[✔] Registros en {model.__tablename__}:")
+        for r in registros:
+            registro_dict = r.__dict__.copy()
+            registro_dict.pop('_sa_instance_state', None)
+            log.info(str(registro_dict))
+            
     except IntegrityError:
         db_session.rollback()
         log.warning(f"[⚠] Conflicto de ID detectado en {model.__tablename__}. Intentando actualización...")
@@ -89,6 +125,15 @@ def insert_batch(model, data, db_session, log):
         
         db_session.commit()
         log.info(f"[✔] Registros duplicados en {model.__tablename__} han sido actualizados o insertados correctamente.")
+        
+        # Consulta nuevamente para verificar la actualización
+        registros = db_session.query(model).all()
+        log.info(f"[✔] Registros en {model.__tablename__} después de la actualización:")
+        for r in registros:
+            registro_dict = r.__dict__.copy()
+            registro_dict.pop('_sa_instance_state', None)
+            log.info(str(registro_dict))
+            
     except Exception as e:
         db_session.rollback()
         log.error(f"[ERROR] Fallo al insertar en {model.__tablename__}: {str(e)}")
